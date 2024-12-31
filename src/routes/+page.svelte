@@ -1,11 +1,14 @@
 <script lang="ts">
-	import { LayerCake, Svg } from 'layercake';
+	import { LayerCake, Svg, Html, groupLonger, flatten } from 'layercake';
+
 	import { scaleOrdinal } from 'd3-scale';
 	import { format } from 'd3-format';
 
 	import MultiLine from './_components/MultiLine.svelte';
 	import AxisX from './_components/AxisX.svelte';
 	import AxisY from './_components/AxisY.svelte';
+	import Labels from './_components/GroupLabels.html.svelte';
+	import SharedTooltip from './_components/SharedTooltip.html.svelte';
 
 	import data from './_data/FOSS_landings.json';
 
@@ -33,7 +36,12 @@
 			}))
 	}));
 
-	const uniqueYears = [...new Set(data.map(d => d.Year))].sort((a, b) => a - b);
+	const marylandYears = data
+		.filter(d => d.State === 'MARYLAND') // 获取 Maryland 的数据
+		.map(d => d.Year)
+		.sort((a, b) => a - b); // 按年份排序
+
+	const fiveYearTicks = marylandYears.filter(year => year % 5 === 0); // 筛选年份为 5 的倍数
 
 	// 定义颜色映射
 	const seriesColors = ['#ff0000', '#00ff00', '#0000ff']; // 三种颜色分别对应州
@@ -50,16 +58,23 @@
 		x="Year"
 		y="Metric Tons"
 		z="State"
-		yDomain={[0, null]}
+		xDomain={[Math.min(...marylandYears), Math.max(...marylandYears)]}
+		yDomain={[0, Math.max(...data.map(d => d['Metric Tons']))]}
 		zScale={scaleOrdinal()}
-		zRange={['#ff0000', '#00ff00', '#0000ff']}
+		zRange={seriesColors}
 		data={groupedData}
+		padding={{ top: 20, right: 30, bottom: 40, left: 50 }}
 	>
 		<Svg>
-			<AxisX gridlines={true} ticks={uniqueYears} format={d => d.toString()} tickMarks />
-			<AxisY gridlines={true} ticks={4} format={d => d.toString()} />
+			<AxisX gridlines={false} ticks={fiveYearTicks} format={formatLabelX} tickMarks />
+			<AxisY gridlines={true} ticks={4} format={formatLabelY} />
 			<MultiLine />
 		</Svg>
+
+		<Html>
+			<Labels />
+			<SharedTooltip dataset={groupedData} formatTitle={formatLabelX} />
+		</Html>
 	</LayerCake>
 </div>
 

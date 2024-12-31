@@ -74,9 +74,6 @@
 	$: y = isBandwidth ? $yScale.bandwidth() / 2 : 0;
 
 	$: maxTickValPx = Math.max(...tickVals.map($yScale));
-
-	console.log('yScale domain:', $yScale.domain());
-	console.log('yScale range:', $yScale.range());
 </script>
 
 <g class="axis y-axis">

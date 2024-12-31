@@ -1,41 +1,49 @@
-<!--
-  @component
-  Generates HTML text labels for a nested data structure. It places the label near the y-value of the highest x-valued data point. This is useful for labeling the final point in a multi-series line chart, for example. It expects your data to be an array of objects where each has `values` field that is an array of data objects. It uses the `z` field accessor to pull the text label.
- -->
 <script>
 	import { getContext } from 'svelte';
-	import { max } from 'd3-array';
 
-	const { data, x, y, xScale, yScale, xRange, yRange, z } = getContext('LayerCake');
-
-	/* --------------------------------------------
-	 * Title case the first letter
-	 */
-	const cap = val => val.replace(/^\w/, d => d.toUpperCase());
-
-	/* --------------------------------------------
-	 * Put the label on the highest value
-	 */
-	$: left = values => $xScale(max(values, $x)) / Math.max(...$xRange);
-	$: top = values => $yScale(max(values, $y)) / Math.max(...$yRange);
+	// 从 LayerCake 获取上下文
+	const { data, z, zScale } = getContext('LayerCake');
 </script>
 
-{#each $data as group}
-	<div
-		class="label"
-		style="
-      top:{top(group.values) * 100}%;
-      left:{left(group.values) * 100}%;
-    "
-	>
-		{cap($z(group))}
-	</div>
-{/each}
+<div class="legend">
+	{#each $data as group}
+		<div class="legend-item">
+			<span class="color-box" style="background-color: {$zScale($z(group))};"></span>
+			<span class="label">{$z(group)}</span>
+		</div>
+	{/each}
+</div>
 
 <style>
-	.label {
+	.legend {
 		position: absolute;
-		transform: translate(-100%, -100%) translateY(1px);
+		top: 10px;
+		right: 10px;
+		background: #fff;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		padding: 10px;
 		font-size: 13px;
+	}
+
+	.legend-item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 5px;
+	}
+
+	.legend-item:last-child {
+		margin-bottom: 0;
+	}
+
+	.color-box {
+		width: 12px;
+		height: 12px;
+		margin-right: 8px;
+		border-radius: 2px;
+	}
+
+	.label {
+		color: #333;
 	}
 </style>

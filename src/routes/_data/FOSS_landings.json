@@ -1,0 +1,1430 @@
+[
+  {
+    "Year": 2023,
+    "State": "MARYLAND",
+    "Pounds": "1,923,416",
+    "Metric Tons": 872,
+    "Dollars": "23,652,717"
+  },
+  {
+    "Year": 2023,
+    "State": "VIRGINIA",
+    "Pounds": "4,366,079",
+    "Metric Tons": 1980,
+    "Dollars": "47,765,014"
+  },
+  {
+    "Year": 2022,
+    "State": "MARYLAND",
+    "Pounds": "1,768,392",
+    "Metric Tons": 802,
+    "Dollars": "24,741,846"
+  },
+  {
+    "Year": 2022,
+    "State": "VIRGINIA",
+    "Pounds": "4,428,519",
+    "Metric Tons": 2009,
+    "Dollars": "32,204,135"
+  },
+  {
+    "Year": 2021,
+    "State": "MARYLAND",
+    "Pounds": "1,391,248",
+    "Metric Tons": 631,
+    "Dollars": "15,403,761"
+  },
+  {
+    "Year": 2021,
+    "State": "VIRGINIA",
+    "Pounds": "3,633,272",
+    "Metric Tons": 1648,
+    "Dollars": "30,250,151"
+  },
+  {
+    "Year": 2020,
+    "State": "MARYLAND",
+    "Pounds": "937,033",
+    "Metric Tons": 425,
+    "Dollars": "10,150,085"
+  },
+  {
+    "Year": 2020,
+    "State": "VIRGINIA",
+    "Pounds": "2,980,267",
+    "Metric Tons": 1352,
+    "Dollars": "37,833,998"
+  },
+  {
+    "Year": 2019,
+    "State": "MARYLAND",
+    "Pounds": "657,583",
+    "Metric Tons": 298,
+    "Dollars": "9,950,603"
+  },
+  {
+    "Year": 2019,
+    "State": "VIRGINIA",
+    "Pounds": "3,434,635",
+    "Metric Tons": 1558,
+    "Dollars": "38,633,573"
+  },
+  {
+    "Year": 2018,
+    "State": "MARYLAND",
+    "Pounds": "465,050",
+    "Metric Tons": 211,
+    "Dollars": "6,741,398"
+  },
+  {
+    "Year": 2018,
+    "State": "VIRGINIA",
+    "Pounds": "3,801,737",
+    "Metric Tons": 1724,
+    "Dollars": "43,451,505"
+  },
+  {
+    "Year": 2017,
+    "State": "MARYLAND",
+    "Pounds": "671,372",
+    "Metric Tons": 305,
+    "Dollars": "10,473,078"
+  },
+  {
+    "Year": 2017,
+    "State": "VIRGINIA",
+    "Pounds": "4,086,543",
+    "Metric Tons": 1854,
+    "Dollars": "49,283,501"
+  },
+  {
+    "Year": 2016,
+    "State": "MARYLAND",
+    "Pounds": "886,953",
+    "Metric Tons": 402,
+    "Dollars": "12,264,899"
+  },
+  {
+    "Year": 2016,
+    "State": "VIRGINIA",
+    "Pounds": "4,076,441",
+    "Metric Tons": 1849,
+    "Dollars": "33,787,774"
+  },
+  {
+    "Year": 2015,
+    "State": "MARYLAND",
+    "Pounds": "1,190,855",
+    "Metric Tons": 540,
+    "Dollars": "15,092,747"
+  },
+  {
+    "Year": 2015,
+    "State": "VIRGINIA",
+    "Pounds": "4,586,831",
+    "Metric Tons": 2081,
+    "Dollars": "36,498,462"
+  },
+  {
+    "Year": 2014,
+    "State": "MARYLAND",
+    "Pounds": "1,196,279",
+    "Metric Tons": 543,
+    "Dollars": "15,686,740"
+  },
+  {
+    "Year": 2014,
+    "State": "VIRGINIA",
+    "Pounds": "3,764,801",
+    "Metric Tons": 1708,
+    "Dollars": "29,098,551"
+  },
+  {
+    "Year": 2013,
+    "State": "MARYLAND",
+    "Pounds": "1,404,052",
+    "Metric Tons": 637,
+    "Dollars": "13,826,873"
+  },
+  {
+    "Year": 2013,
+    "State": "NEW JERSEY",
+    "Pounds": "",
+    "Metric Tons": 0,
+    "Dollars": ""
+  },
+  {
+    "Year": 2013,
+    "State": "VIRGINIA",
+    "Pounds": "3,242,599",
+    "Metric Tons": 1471,
+    "Dollars": "25,317,674"
+  },
+  {
+    "Year": 2012,
+    "State": "MARYLAND",
+    "Pounds": "612,984",
+    "Metric Tons": 278,
+    "Dollars": "5,667,150"
+  },
+  {
+    "Year": 2012,
+    "State": "VIRGINIA",
+    "Pounds": "1,951,367",
+    "Metric Tons": 885,
+    "Dollars": "11,949,279"
+  },
+  {
+    "Year": 2011,
+    "State": "MARYLAND",
+    "Pounds": "355,773",
+    "Metric Tons": 161,
+    "Dollars": "3,688,807"
+  },
+  {
+    "Year": 2011,
+    "State": "VIRGINIA",
+    "Pounds": "1,514,889",
+    "Metric Tons": 687,
+    "Dollars": "6,832,052"
+  },
+  {
+    "Year": 2010,
+    "State": "MARYLAND",
+    "Pounds": "408,456",
+    "Metric Tons": 185,
+    "Dollars": "4,094,892"
+  },
+  {
+    "Year": 2010,
+    "State": "VIRGINIA",
+    "Pounds": "1,177,063",
+    "Metric Tons": 534,
+    "Dollars": "5,202,275"
+  },
+  {
+    "Year": 2009,
+    "State": "MARYLAND",
+    "Pounds": "497,980",
+    "Metric Tons": 226,
+    "Dollars": "3,849,265"
+  },
+  {
+    "Year": 2009,
+    "State": "VIRGINIA",
+    "Pounds": "801,714",
+    "Metric Tons": 364,
+    "Dollars": "3,745,299"
+  },
+  {
+    "Year": 2008,
+    "State": "MARYLAND",
+    "Pounds": "249,449",
+    "Metric Tons": 113,
+    "Dollars": "2,277,057"
+  },
+  {
+    "Year": 2008,
+    "State": "NEW JERSEY",
+    "Pounds": "550,086",
+    "Metric Tons": 250,
+    "Dollars": "2,547,127"
+  },
+  {
+    "Year": 2008,
+    "State": "VIRGINIA",
+    "Pounds": "766,874",
+    "Metric Tons": 348,
+    "Dollars": "3,100,660"
+  },
+  {
+    "Year": 2007,
+    "State": "MARYLAND",
+    "Pounds": "317,029",
+    "Metric Tons": 144,
+    "Dollars": "3,145,649"
+  },
+  {
+    "Year": 2007,
+    "State": "NEW JERSEY",
+    "Pounds": "",
+    "Metric Tons": 0,
+    "Dollars": ""
+  },
+  {
+    "Year": 2007,
+    "State": "VIRGINIA",
+    "Pounds": "1,858,695",
+    "Metric Tons": 843,
+    "Dollars": "2,774,206"
+  },
+  {
+    "Year": 2006,
+    "State": "MARYLAND",
+    "Pounds": "273,894",
+    "Metric Tons": 124,
+    "Dollars": "1,237,726"
+  },
+  {
+    "Year": 2006,
+    "State": "NEW JERSEY",
+    "Pounds": "343,191",
+    "Metric Tons": 156,
+    "Dollars": "2,254,622"
+  },
+  {
+    "Year": 2006,
+    "State": "VIRGINIA",
+    "Pounds": 166,
+    "Metric Tons": 0,
+    "Dollars": "2,760"
+  },
+  {
+    "Year": 2005,
+    "State": "MARYLAND",
+    "Pounds": "737,853",
+    "Metric Tons": 335,
+    "Dollars": "3,434,963"
+  },
+  {
+    "Year": 2005,
+    "State": "NEW JERSEY",
+    "Pounds": "161,526",
+    "Metric Tons": 73,
+    "Dollars": "822,609"
+  },
+  {
+    "Year": 2004,
+    "State": "MARYLAND",
+    "Pounds": "42,791",
+    "Metric Tons": 19,
+    "Dollars": "181,003"
+  },
+  {
+    "Year": 2004,
+    "State": "NEW JERSEY",
+    "Pounds": "323,049",
+    "Metric Tons": 147,
+    "Dollars": "1,558,136"
+  },
+  {
+    "Year": 2004,
+    "State": "VIRGINIA",
+    "Pounds": "43,999",
+    "Metric Tons": 20,
+    "Dollars": "192,707"
+  },
+  {
+    "Year": 2003,
+    "State": "MARYLAND",
+    "Pounds": "158,873",
+    "Metric Tons": 72,
+    "Dollars": "706,256"
+  },
+  {
+    "Year": 2003,
+    "State": "NEW JERSEY",
+    "Pounds": "713,928",
+    "Metric Tons": 324,
+    "Dollars": "3,366,374"
+  },
+  {
+    "Year": 2003,
+    "State": "VIRGINIA",
+    "Pounds": "77,639",
+    "Metric Tons": 35,
+    "Dollars": "263,002"
+  },
+  {
+    "Year": 2002,
+    "State": "MARYLAND",
+    "Pounds": "566,990",
+    "Metric Tons": 257,
+    "Dollars": "2,172,418"
+  },
+  {
+    "Year": 2002,
+    "State": "NEW JERSEY",
+    "Pounds": "379,284",
+    "Metric Tons": 172,
+    "Dollars": "1,852,523"
+  },
+  {
+    "Year": 2002,
+    "State": "VIRGINIA",
+    "Pounds": "97,192",
+    "Metric Tons": 44,
+    "Dollars": "316,283"
+  },
+  {
+    "Year": 2001,
+    "State": "MARYLAND",
+    "Pounds": "1,274,210",
+    "Metric Tons": 578,
+    "Dollars": "3,789,301"
+  },
+  {
+    "Year": 2001,
+    "State": "NEW JERSEY",
+    "Pounds": "412,264",
+    "Metric Tons": 187,
+    "Dollars": "1,918,117"
+  },
+  {
+    "Year": 2001,
+    "State": "VIRGINIA",
+    "Pounds": "208,620",
+    "Metric Tons": 95,
+    "Dollars": "570,656"
+  },
+  {
+    "Year": 2000,
+    "State": "MARYLAND",
+    "Pounds": "2,368,236",
+    "Metric Tons": 1074,
+    "Dollars": "7,192,089"
+  },
+  {
+    "Year": 2000,
+    "State": "NEW JERSEY",
+    "Pounds": "202,443",
+    "Metric Tons": 92,
+    "Dollars": "966,531"
+  },
+  {
+    "Year": 2000,
+    "State": "VIRGINIA",
+    "Pounds": "163,066",
+    "Metric Tons": 74,
+    "Dollars": "478,967"
+  },
+  {
+    "Year": 1999,
+    "State": "MARYLAND",
+    "Pounds": "2,439,995",
+    "Metric Tons": 1107,
+    "Dollars": "7,111,469"
+  },
+  {
+    "Year": 1999,
+    "State": "NEW JERSEY",
+    "Pounds": "411,377",
+    "Metric Tons": 187,
+    "Dollars": "1,571,711"
+  },
+  {
+    "Year": 1999,
+    "State": "VIRGINIA",
+    "Pounds": "346,234",
+    "Metric Tons": 157,
+    "Dollars": "966,964"
+  },
+  {
+    "Year": 1998,
+    "State": "MARYLAND",
+    "Pounds": "2,460,954",
+    "Metric Tons": 1116,
+    "Dollars": "7,635,153"
+  },
+  {
+    "Year": 1998,
+    "State": "NEW JERSEY",
+    "Pounds": "702,849",
+    "Metric Tons": 319,
+    "Dollars": "2,686,411"
+  },
+  {
+    "Year": 1998,
+    "State": "VIRGINIA",
+    "Pounds": "222,775",
+    "Metric Tons": 101,
+    "Dollars": "657,650"
+  },
+  {
+    "Year": 1997,
+    "State": "MARYLAND",
+    "Pounds": "1,429,409",
+    "Metric Tons": 648,
+    "Dollars": "4,507,620"
+  },
+  {
+    "Year": 1997,
+    "State": "NEW JERSEY",
+    "Pounds": "592,870",
+    "Metric Tons": 269,
+    "Dollars": "2,262,315"
+  },
+  {
+    "Year": 1997,
+    "State": "VIRGINIA",
+    "Pounds": "303,359",
+    "Metric Tons": 138,
+    "Dollars": "959,368"
+  },
+  {
+    "Year": 1996,
+    "State": "MARYLAND",
+    "Pounds": "888,863",
+    "Metric Tons": 403,
+    "Dollars": "2,852,786"
+  },
+  {
+    "Year": 1996,
+    "State": "NEW JERSEY",
+    "Pounds": "344,213",
+    "Metric Tons": 156,
+    "Dollars": "1,306,353"
+  },
+  {
+    "Year": 1996,
+    "State": "VIRGINIA",
+    "Pounds": "159,606",
+    "Metric Tons": 72,
+    "Dollars": "462,041"
+  },
+  {
+    "Year": 1995,
+    "State": "MARYLAND",
+    "Pounds": "1,197,759",
+    "Metric Tons": 543,
+    "Dollars": "3,175,068"
+  },
+  {
+    "Year": 1995,
+    "State": "NEW JERSEY",
+    "Pounds": "156,291",
+    "Metric Tons": 71,
+    "Dollars": "504,054"
+  },
+  {
+    "Year": 1995,
+    "State": "VIRGINIA",
+    "Pounds": "398,220",
+    "Metric Tons": 181,
+    "Dollars": "1,089,629"
+  },
+  {
+    "Year": 1994,
+    "State": "MARYLAND",
+    "Pounds": "817,829",
+    "Metric Tons": 371,
+    "Dollars": "2,647,295"
+  },
+  {
+    "Year": 1994,
+    "State": "VIRGINIA",
+    "Pounds": "300,581",
+    "Metric Tons": 136,
+    "Dollars": "812,457"
+  },
+  {
+    "Year": 1993,
+    "State": "MARYLAND",
+    "Pounds": "164,435",
+    "Metric Tons": 75,
+    "Dollars": "537,019"
+  },
+  {
+    "Year": 1993,
+    "State": "NEW JERSEY",
+    "Pounds": 585,
+    "Metric Tons": 0,
+    "Dollars": "2,800"
+  },
+  {
+    "Year": 1993,
+    "State": "VIRGINIA",
+    "Pounds": "406,958",
+    "Metric Tons": 185,
+    "Dollars": "1,114,641"
+  },
+  {
+    "Year": 1992,
+    "State": "MARYLAND",
+    "Pounds": "1,468,451",
+    "Metric Tons": 666,
+    "Dollars": "4,712,640"
+  },
+  {
+    "Year": 1992,
+    "State": "NEW JERSEY",
+    "Pounds": "33,772",
+    "Metric Tons": 15,
+    "Dollars": "111,363"
+  },
+  {
+    "Year": 1992,
+    "State": "VIRGINIA",
+    "Pounds": "726,017",
+    "Metric Tons": 329,
+    "Dollars": "2,044,082"
+  },
+  {
+    "Year": 1991,
+    "State": "MARYLAND",
+    "Pounds": "1,677,500",
+    "Metric Tons": 761,
+    "Dollars": "5,282,666"
+  },
+  {
+    "Year": 1991,
+    "State": "NEW JERSEY",
+    "Pounds": "209,599",
+    "Metric Tons": 95,
+    "Dollars": "685,190"
+  },
+  {
+    "Year": 1991,
+    "State": "VIRGINIA",
+    "Pounds": "1,703,660",
+    "Metric Tons": 773,
+    "Dollars": "4,881,402"
+  },
+  {
+    "Year": 1990,
+    "State": "MARYLAND",
+    "Pounds": "2,882,325",
+    "Metric Tons": 1307,
+    "Dollars": "10,747,729"
+  },
+  {
+    "Year": 1990,
+    "State": "NEW JERSEY",
+    "Pounds": "500,560",
+    "Metric Tons": 227,
+    "Dollars": "2,301,920"
+  },
+  {
+    "Year": 1990,
+    "State": "VIRGINIA",
+    "Pounds": "1,632,788",
+    "Metric Tons": 741,
+    "Dollars": "5,171,581"
+  },
+  {
+    "Year": 1989,
+    "State": "MARYLAND",
+    "Pounds": "2,328,500",
+    "Metric Tons": 1056,
+    "Dollars": "7,888,844"
+  },
+  {
+    "Year": 1989,
+    "State": "VIRGINIA",
+    "Pounds": "1,974,600",
+    "Metric Tons": 896,
+    "Dollars": "6,018,810"
+  },
+  {
+    "Year": 1988,
+    "State": "MARYLAND",
+    "Pounds": "2,408,800",
+    "Metric Tons": 1093,
+    "Dollars": "7,270,031"
+  },
+  {
+    "Year": 1988,
+    "State": "VIRGINIA",
+    "Pounds": "2,927,000",
+    "Metric Tons": 1328,
+    "Dollars": "7,734,980"
+  },
+  {
+    "Year": 1987,
+    "State": "MARYLAND",
+    "Pounds": "3,822,000",
+    "Metric Tons": 1734,
+    "Dollars": "11,817,109"
+  },
+  {
+    "Year": 1987,
+    "State": "NEW JERSEY",
+    "Pounds": "14,600",
+    "Metric Tons": 7,
+    "Dollars": "62,064"
+  },
+  {
+    "Year": 1987,
+    "State": "VIRGINIA",
+    "Pounds": "4,825,600",
+    "Metric Tons": 2189,
+    "Dollars": "11,837,160"
+  },
+  {
+    "Year": 1986,
+    "State": "MARYLAND",
+    "Pounds": "7,961,800",
+    "Metric Tons": 3611,
+    "Dollars": "18,264,794"
+  },
+  {
+    "Year": 1986,
+    "State": "NEW JERSEY",
+    "Pounds": "104,800",
+    "Metric Tons": 48,
+    "Dollars": "515,023"
+  },
+  {
+    "Year": 1986,
+    "State": "VIRGINIA",
+    "Pounds": "5,780,239",
+    "Metric Tons": 2622,
+    "Dollars": "10,857,814"
+  },
+  {
+    "Year": 1985,
+    "State": "MARYLAND",
+    "Pounds": "8,597,800",
+    "Metric Tons": 3900,
+    "Dollars": "15,572,626"
+  },
+  {
+    "Year": 1985,
+    "State": "NEW JERSEY",
+    "Pounds": "293,200",
+    "Metric Tons": 133,
+    "Dollars": "1,065,012"
+  },
+  {
+    "Year": 1985,
+    "State": "VIRGINIA",
+    "Pounds": "4,523,718",
+    "Metric Tons": 2052,
+    "Dollars": "7,224,272"
+  },
+  {
+    "Year": 1984,
+    "State": "MARYLAND",
+    "Pounds": "8,042,500",
+    "Metric Tons": 3648,
+    "Dollars": "18,850,196"
+  },
+  {
+    "Year": 1984,
+    "State": "NEW JERSEY",
+    "Pounds": "788,800",
+    "Metric Tons": 358,
+    "Dollars": "2,098,934"
+  },
+  {
+    "Year": 1984,
+    "State": "VIRGINIA",
+    "Pounds": "4,321,500",
+    "Metric Tons": 1960,
+    "Dollars": "7,350,928"
+  },
+  {
+    "Year": 1983,
+    "State": "MARYLAND",
+    "Pounds": "7,445,400",
+    "Metric Tons": 3377,
+    "Dollars": "13,951,428"
+  },
+  {
+    "Year": 1983,
+    "State": "NEW JERSEY",
+    "Pounds": "705,400",
+    "Metric Tons": 320,
+    "Dollars": "1,487,240"
+  },
+  {
+    "Year": 1983,
+    "State": "VIRGINIA",
+    "Pounds": "4,192,100",
+    "Metric Tons": 1902,
+    "Dollars": "5,882,175"
+  },
+  {
+    "Year": 1982,
+    "State": "MARYLAND",
+    "Pounds": "12,275,300",
+    "Metric Tons": 5568,
+    "Dollars": "18,320,171"
+  },
+  {
+    "Year": 1982,
+    "State": "NEW JERSEY",
+    "Pounds": "641,500",
+    "Metric Tons": 291,
+    "Dollars": "1,067,061"
+  },
+  {
+    "Year": 1982,
+    "State": "VIRGINIA",
+    "Pounds": "5,249,400",
+    "Metric Tons": 2381,
+    "Dollars": "7,448,155"
+  },
+  {
+    "Year": 1981,
+    "State": "MARYLAND",
+    "Pounds": "15,721,600",
+    "Metric Tons": 7131,
+    "Dollars": "21,701,605"
+  },
+  {
+    "Year": 1981,
+    "State": "NEW JERSEY",
+    "Pounds": "447,000",
+    "Metric Tons": 203,
+    "Dollars": "767,215"
+  },
+  {
+    "Year": 1981,
+    "State": "VIRGINIA",
+    "Pounds": "5,884,600",
+    "Metric Tons": 2669,
+    "Dollars": "7,595,270"
+  },
+  {
+    "Year": 1980,
+    "State": "MARYLAND",
+    "Pounds": "14,944,600",
+    "Metric Tons": 6779,
+    "Dollars": "19,832,274"
+  },
+  {
+    "Year": 1980,
+    "State": "NEW JERSEY",
+    "Pounds": "756,600",
+    "Metric Tons": 343,
+    "Dollars": "1,145,679"
+  },
+  {
+    "Year": 1980,
+    "State": "VIRGINIA",
+    "Pounds": "7,846,500",
+    "Metric Tons": 3559,
+    "Dollars": "9,490,846"
+  },
+  {
+    "Year": 1979,
+    "State": "MARYLAND",
+    "Pounds": "13,489,000",
+    "Metric Tons": 6119,
+    "Dollars": "17,120,385"
+  },
+  {
+    "Year": 1979,
+    "State": "NEW JERSEY",
+    "Pounds": "1,675,300",
+    "Metric Tons": 760,
+    "Dollars": "2,362,590"
+  },
+  {
+    "Year": 1979,
+    "State": "VIRGINIA",
+    "Pounds": "8,196,500",
+    "Metric Tons": 3718,
+    "Dollars": "9,862,703"
+  },
+  {
+    "Year": 1978,
+    "State": "MARYLAND",
+    "Pounds": "14,372,900",
+    "Metric Tons": 6520,
+    "Dollars": "15,833,745"
+  },
+  {
+    "Year": 1978,
+    "State": "NEW JERSEY",
+    "Pounds": "1,552,400",
+    "Metric Tons": 704,
+    "Dollars": "2,016,728"
+  },
+  {
+    "Year": 1978,
+    "State": "VIRGINIA",
+    "Pounds": "8,087,300",
+    "Metric Tons": 3668,
+    "Dollars": "9,031,615"
+  },
+  {
+    "Year": 1977,
+    "State": "MARYLAND",
+    "Pounds": "13,028,200",
+    "Metric Tons": 5910,
+    "Dollars": "14,352,138"
+  },
+  {
+    "Year": 1977,
+    "State": "NEW JERSEY",
+    "Pounds": "1,225,000",
+    "Metric Tons": 556,
+    "Dollars": "1,415,710"
+  },
+  {
+    "Year": 1977,
+    "State": "VIRGINIA",
+    "Pounds": "4,985,500",
+    "Metric Tons": 2261,
+    "Dollars": "5,580,638"
+  },
+  {
+    "Year": 1976,
+    "State": "MARYLAND",
+    "Pounds": "14,880,300",
+    "Metric Tons": 6750,
+    "Dollars": "15,870,395"
+  },
+  {
+    "Year": 1976,
+    "State": "NEW JERSEY",
+    "Pounds": "1,402,600",
+    "Metric Tons": 636,
+    "Dollars": "1,315,876"
+  },
+  {
+    "Year": 1976,
+    "State": "VIRGINIA",
+    "Pounds": "6,084,100",
+    "Metric Tons": 2760,
+    "Dollars": "5,877,220"
+  },
+  {
+    "Year": 1975,
+    "State": "MARYLAND",
+    "Pounds": "16,402,300",
+    "Metric Tons": 7440,
+    "Dollars": "13,126,669"
+  },
+  {
+    "Year": 1975,
+    "State": "NEW JERSEY",
+    "Pounds": "972,100",
+    "Metric Tons": 441,
+    "Dollars": "902,833"
+  },
+  {
+    "Year": 1975,
+    "State": "VIRGINIA",
+    "Pounds": "6,237,200",
+    "Metric Tons": 2829,
+    "Dollars": "4,999,122"
+  },
+  {
+    "Year": 1974,
+    "State": "MARYLAND",
+    "Pounds": "18,284,100",
+    "Metric Tons": 8294,
+    "Dollars": "12,707,575"
+  },
+  {
+    "Year": 1974,
+    "State": "NEW JERSEY",
+    "Pounds": "1,009,900",
+    "Metric Tons": 458,
+    "Dollars": "1,028,702"
+  },
+  {
+    "Year": 1974,
+    "State": "VIRGINIA",
+    "Pounds": "6,737,900",
+    "Metric Tons": 3056,
+    "Dollars": "4,844,038"
+  },
+  {
+    "Year": 1973,
+    "State": "MARYLAND",
+    "Pounds": "20,422,200",
+    "Metric Tons": 9263,
+    "Dollars": "13,587,262"
+  },
+  {
+    "Year": 1973,
+    "State": "NEW JERSEY",
+    "Pounds": "1,397,200",
+    "Metric Tons": 634,
+    "Dollars": "1,329,232"
+  },
+  {
+    "Year": 1973,
+    "State": "VIRGINIA",
+    "Pounds": "4,979,500",
+    "Metric Tons": 2259,
+    "Dollars": "3,178,554"
+  },
+  {
+    "Year": 1972,
+    "State": "MARYLAND",
+    "Pounds": "19,052,800",
+    "Metric Tons": 8642,
+    "Dollars": "12,075,629"
+  },
+  {
+    "Year": 1972,
+    "State": "NEW JERSEY",
+    "Pounds": "1,714,100",
+    "Metric Tons": 778,
+    "Dollars": "1,370,071"
+  },
+  {
+    "Year": 1972,
+    "State": "VIRGINIA",
+    "Pounds": "5,014,400",
+    "Metric Tons": 2275,
+    "Dollars": "3,240,723"
+  },
+  {
+    "Year": 1971,
+    "State": "MARYLAND",
+    "Pounds": "17,116,900",
+    "Metric Tons": 7764,
+    "Dollars": "10,535,549"
+  },
+  {
+    "Year": 1971,
+    "State": "NEW JERSEY",
+    "Pounds": "871,500",
+    "Metric Tons": 395,
+    "Dollars": "708,630"
+  },
+  {
+    "Year": 1971,
+    "State": "VIRGINIA",
+    "Pounds": "8,441,500",
+    "Metric Tons": 3829,
+    "Dollars": "5,509,965"
+  },
+  {
+    "Year": 1970,
+    "State": "MARYLAND",
+    "Pounds": "16,625,200",
+    "Metric Tons": 7541,
+    "Dollars": "9,653,498"
+  },
+  {
+    "Year": 1970,
+    "State": "NEW JERSEY",
+    "Pounds": "677,200",
+    "Metric Tons": 307,
+    "Dollars": "556,848"
+  },
+  {
+    "Year": 1970,
+    "State": "VIRGINIA",
+    "Pounds": "8,043,300",
+    "Metric Tons": 3648,
+    "Dollars": "5,426,940"
+  },
+  {
+    "Year": 1969,
+    "State": "MARYLAND",
+    "Pounds": "14,721,200",
+    "Metric Tons": 6677,
+    "Dollars": "9,010,566"
+  },
+  {
+    "Year": 1969,
+    "State": "NEW JERSEY",
+    "Pounds": "1,058,800",
+    "Metric Tons": 480,
+    "Dollars": "838,562"
+  },
+  {
+    "Year": 1969,
+    "State": "VIRGINIA",
+    "Pounds": "7,436,600",
+    "Metric Tons": 3373,
+    "Dollars": "4,985,967"
+  },
+  {
+    "Year": 1968,
+    "State": "MARYLAND",
+    "Pounds": "14,873,800",
+    "Metric Tons": 6747,
+    "Dollars": "9,990,452"
+  },
+  {
+    "Year": 1968,
+    "State": "NEW JERSEY",
+    "Pounds": "1,320,200",
+    "Metric Tons": 599,
+    "Dollars": "1,073,139"
+  },
+  {
+    "Year": 1968,
+    "State": "VIRGINIA",
+    "Pounds": "7,804,700",
+    "Metric Tons": 3540,
+    "Dollars": "5,268,749"
+  },
+  {
+    "Year": 1967,
+    "State": "MARYLAND",
+    "Pounds": "16,729,800",
+    "Metric Tons": 7589,
+    "Dollars": "11,362,836"
+  },
+  {
+    "Year": 1967,
+    "State": "NEW JERSEY",
+    "Pounds": "1,027,200",
+    "Metric Tons": 466,
+    "Dollars": "916,992"
+  },
+  {
+    "Year": 1967,
+    "State": "VIRGINIA",
+    "Pounds": "9,068,000",
+    "Metric Tons": 4113,
+    "Dollars": "5,959,026"
+  },
+  {
+    "Year": 1966,
+    "State": "MARYLAND",
+    "Pounds": "11,788,700",
+    "Metric Tons": 5347,
+    "Dollars": "8,048,537"
+  },
+  {
+    "Year": 1966,
+    "State": "NEW JERSEY",
+    "Pounds": "694,400",
+    "Metric Tons": 315,
+    "Dollars": "796,126"
+  },
+  {
+    "Year": 1966,
+    "State": "VIRGINIA",
+    "Pounds": "9,442,600",
+    "Metric Tons": 4283,
+    "Dollars": "6,493,982"
+  },
+  {
+    "Year": 1965,
+    "State": "MARYLAND",
+    "Pounds": "8,620,100",
+    "Metric Tons": 3910,
+    "Dollars": "6,405,280"
+  },
+  {
+    "Year": 1965,
+    "State": "NEW JERSEY",
+    "Pounds": "523,100",
+    "Metric Tons": 237,
+    "Dollars": "713,637"
+  },
+  {
+    "Year": 1965,
+    "State": "VIRGINIA",
+    "Pounds": "12,568,400",
+    "Metric Tons": 5701,
+    "Dollars": "10,291,253"
+  },
+  {
+    "Year": 1964,
+    "State": "MARYLAND",
+    "Pounds": "7,947,700",
+    "Metric Tons": 3605,
+    "Dollars": "5,460,637"
+  },
+  {
+    "Year": 1964,
+    "State": "NEW JERSEY",
+    "Pounds": "1,097,700",
+    "Metric Tons": 498,
+    "Dollars": "1,024,410"
+  },
+  {
+    "Year": 1964,
+    "State": "VIRGINIA",
+    "Pounds": "14,150,200",
+    "Metric Tons": 6418,
+    "Dollars": "10,345,064"
+  },
+  {
+    "Year": 1963,
+    "State": "MARYLAND",
+    "Pounds": "7,756,400",
+    "Metric Tons": 3518,
+    "Dollars": "5,618,082"
+  },
+  {
+    "Year": 1963,
+    "State": "NEW JERSEY",
+    "Pounds": "515,400",
+    "Metric Tons": 234,
+    "Dollars": "558,737"
+  },
+  {
+    "Year": 1963,
+    "State": "VIRGINIA",
+    "Pounds": "10,517,900",
+    "Metric Tons": 4771,
+    "Dollars": "8,110,189"
+  },
+  {
+    "Year": 1962,
+    "State": "MARYLAND",
+    "Pounds": "8,137,500",
+    "Metric Tons": 3691,
+    "Dollars": "6,182,332"
+  },
+  {
+    "Year": 1962,
+    "State": "NEW JERSEY",
+    "Pounds": "1,553,400",
+    "Metric Tons": 705,
+    "Dollars": "1,422,234"
+  },
+  {
+    "Year": 1962,
+    "State": "VIRGINIA",
+    "Pounds": "11,800,000",
+    "Metric Tons": 5352,
+    "Dollars": "9,773,869"
+  },
+  {
+    "Year": 1961,
+    "State": "MARYLAND",
+    "Pounds": "10,336,600",
+    "Metric Tons": 4689,
+    "Dollars": "7,802,392"
+  },
+  {
+    "Year": 1961,
+    "State": "NEW JERSEY",
+    "Pounds": "1,100,100",
+    "Metric Tons": 499,
+    "Dollars": "933,444"
+  },
+  {
+    "Year": 1961,
+    "State": "VIRGINIA",
+    "Pounds": "17,163,500",
+    "Metric Tons": 7785,
+    "Dollars": "13,932,107"
+  },
+  {
+    "Year": 1960,
+    "State": "MARYLAND",
+    "Pounds": "11,769,700",
+    "Metric Tons": 5339,
+    "Dollars": "8,426,224"
+  },
+  {
+    "Year": 1960,
+    "State": "NEW JERSEY",
+    "Pounds": "166,800",
+    "Metric Tons": 76,
+    "Dollars": "159,948"
+  },
+  {
+    "Year": 1960,
+    "State": "VIRGINIA",
+    "Pounds": "15,340,400",
+    "Metric Tons": 6958,
+    "Dollars": "10,882,946"
+  },
+  {
+    "Year": 1959,
+    "State": "MARYLAND",
+    "Pounds": "11,966,200",
+    "Metric Tons": 5428,
+    "Dollars": "7,234,124"
+  },
+  {
+    "Year": 1959,
+    "State": "NEW JERSEY",
+    "Pounds": "206,000",
+    "Metric Tons": 93,
+    "Dollars": "189,233"
+  },
+  {
+    "Year": 1959,
+    "State": "VIRGINIA",
+    "Pounds": "21,354,900",
+    "Metric Tons": 9687,
+    "Dollars": "13,374,298"
+  },
+  {
+    "Year": 1958,
+    "State": "MARYLAND",
+    "Pounds": "12,026,700",
+    "Metric Tons": 5455,
+    "Dollars": "6,667,542"
+  },
+  {
+    "Year": 1958,
+    "State": "NEW JERSEY",
+    "Pounds": "829,000",
+    "Metric Tons": 376,
+    "Dollars": "675,836"
+  },
+  {
+    "Year": 1958,
+    "State": "VIRGINIA",
+    "Pounds": "25,503,700",
+    "Metric Tons": 11568,
+    "Dollars": "14,126,422"
+  },
+  {
+    "Year": 1957,
+    "State": "MARYLAND",
+    "Pounds": "14,732,400",
+    "Metric Tons": 6683,
+    "Dollars": "7,601,768"
+  },
+  {
+    "Year": 1957,
+    "State": "NEW JERSEY",
+    "Pounds": "2,720,000",
+    "Metric Tons": 1234,
+    "Dollars": "1,781,528"
+  },
+  {
+    "Year": 1957,
+    "State": "VIRGINIA",
+    "Pounds": "20,089,500",
+    "Metric Tons": 9113,
+    "Dollars": "9,846,869"
+  },
+  {
+    "Year": 1956,
+    "State": "MARYLAND",
+    "Pounds": "15,843,900",
+    "Metric Tons": 7187,
+    "Dollars": "8,791,685"
+  },
+  {
+    "Year": 1956,
+    "State": "NEW JERSEY",
+    "Pounds": "5,501,800",
+    "Metric Tons": 2496,
+    "Dollars": "3,023,620"
+  },
+  {
+    "Year": 1956,
+    "State": "VIRGINIA",
+    "Pounds": "21,220,200",
+    "Metric Tons": 9625,
+    "Dollars": "9,900,857"
+  },
+  {
+    "Year": 1955,
+    "State": "MARYLAND",
+    "Pounds": "17,271,900",
+    "Metric Tons": 7834,
+    "Dollars": "7,786,400"
+  },
+  {
+    "Year": 1955,
+    "State": "NEW JERSEY",
+    "Pounds": "5,204,500",
+    "Metric Tons": 2361,
+    "Dollars": "2,602,275"
+  },
+  {
+    "Year": 1955,
+    "State": "VIRGINIA",
+    "Pounds": "21,955,600",
+    "Metric Tons": 9959,
+    "Dollars": "10,015,845"
+  },
+  {
+    "Year": 1954,
+    "State": "MARYLAND",
+    "Pounds": "20,363,200",
+    "Metric Tons": 9237,
+    "Dollars": "9,019,500"
+  },
+  {
+    "Year": 1954,
+    "State": "NEW JERSEY",
+    "Pounds": "7,328,900",
+    "Metric Tons": 3324,
+    "Dollars": "3,633,774"
+  },
+  {
+    "Year": 1954,
+    "State": "VIRGINIA",
+    "Pounds": "21,224,600",
+    "Metric Tons": 9627,
+    "Dollars": "9,840,750"
+  },
+  {
+    "Year": 1953,
+    "State": "MARYLAND",
+    "Pounds": "17,433,900",
+    "Metric Tons": 7908,
+    "Dollars": "7,074,450"
+  },
+  {
+    "Year": 1953,
+    "State": "NEW JERSEY",
+    "Pounds": "8,484,500",
+    "Metric Tons": 3849,
+    "Dollars": "4,118,084"
+  },
+  {
+    "Year": 1953,
+    "State": "VIRGINIA",
+    "Pounds": "19,511,000",
+    "Metric Tons": 8850,
+    "Dollars": "7,652,215"
+  },
+  {
+    "Year": 1952,
+    "State": "MARYLAND",
+    "Pounds": "16,287,600",
+    "Metric Tons": 7388,
+    "Dollars": "7,165,000"
+  },
+  {
+    "Year": 1952,
+    "State": "NEW JERSEY",
+    "Pounds": "7,993,800",
+    "Metric Tons": 3626,
+    "Dollars": "3,397,369"
+  },
+  {
+    "Year": 1952,
+    "State": "VIRGINIA",
+    "Pounds": "18,130,000",
+    "Metric Tons": 8224,
+    "Dollars": "7,711,975"
+  },
+  {
+    "Year": 1951,
+    "State": "MARYLAND",
+    "Pounds": "14,521,900",
+    "Metric Tons": 6587,
+    "Dollars": "6,692,360"
+  },
+  {
+    "Year": 1951,
+    "State": "NEW JERSEY",
+    "Pounds": "5,761,300",
+    "Metric Tons": 2613,
+    "Dollars": "2,405,681"
+  },
+  {
+    "Year": 1951,
+    "State": "VIRGINIA",
+    "Pounds": "15,076,300",
+    "Metric Tons": 6839,
+    "Dollars": "5,276,511"
+  },
+  {
+    "Year": 1950,
+    "State": "MARYLAND",
+    "Pounds": "14,406,000",
+    "Metric Tons": 6535,
+    "Dollars": "5,520,892"
+  },
+  {
+    "Year": 1950,
+    "State": "NEW JERSEY",
+    "Pounds": "7,241,800",
+    "Metric Tons": 3285,
+    "Dollars": "2,897,247"
+  },
+  {
+    "Year": 1950,
+    "State": "VIRGINIA",
+    "Pounds": "15,547,500",
+    "Metric Tons": 7052,
+    "Dollars": "5,573,880"
+  }
+]

@@ -9,6 +9,7 @@
 	import AxisY from './_components/AxisY.svelte';
 	import Labels from './_components/GroupLabels.html.svelte';
 	import SharedTooltip from './_components/SharedTooltip.html.svelte';
+	import FrontLayout from './_components/FrontLayout.svelte';
 
 	import data from './_data/FOSS_landings.json';
 
@@ -53,29 +54,39 @@
 	console.log('groupedData:', groupedData);
 </script>
 
-<div class="chart-container">
-	<LayerCake
-		x="Year"
-		y="Metric Tons"
-		z="State"
-		xDomain={[Math.min(...marylandYears), Math.max(...marylandYears)]}
-		yDomain={[0, Math.max(...data.map(d => d['Metric Tons']))]}
-		zScale={scaleOrdinal()}
-		zRange={seriesColors}
-		data={groupedData}
-		padding={{ top: 20, right: 30, bottom: 40, left: 50 }}
-	>
-		<Svg>
-			<AxisX gridlines={false} ticks={fiveYearTicks} format={formatLabelX} tickMarks />
-			<AxisY gridlines={true} ticks={4} format={formatLabelY} />
-			<MultiLine />
-		</Svg>
+<div class="page-container">
+	<!-- 顶部图片和文字部分 -->
+	<FrontLayout
+		frontImgUrl="./src/routes/_img/baltimore_oyster.jpg"
+		title="The Black Oysterman Taking Half Shells From the Bar to the Block"
+		description="The Brooklyn man behind the Real Mother Shuckers wants to return oysters to ubiquity in New York City and honor the legacy of Black oystermen."
+	/>
 
-		<Html>
-			<Labels />
-			<SharedTooltip dataset={groupedData} formatTitle={formatLabelX} />
-		</Html>
-	</LayerCake>
+	<!-- 图表部分 -->
+	<div class="chart-container">
+		<LayerCake
+			x="Year"
+			y="Metric Tons"
+			z="State"
+			xDomain={[Math.min(...marylandYears), Math.max(...marylandYears)]}
+			yDomain={[0, Math.max(...data.map(d => d['Metric Tons']))]}
+			zScale={scaleOrdinal()}
+			zRange={seriesColors}
+			data={groupedData}
+			padding={{ top: 20, right: 30, bottom: 40, left: 50 }}
+		>
+			<Svg>
+				<AxisX gridlines={false} ticks={fiveYearTicks} format={formatLabelX} tickMarks />
+				<AxisY gridlines={true} ticks={4} format={formatLabelY} />
+				<MultiLine />
+			</Svg>
+
+			<Html>
+				<Labels />
+				<SharedTooltip dataset={groupedData} formatTitle={formatLabelX} />
+			</Html>
+		</LayerCake>
+	</div>
 </div>
 
 <style>

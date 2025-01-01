@@ -50,7 +50,7 @@
 	}
 </script>
 
-<QuadTree dataset={dataset || $data} y="x" let:x let:y let:visible let:found let:e>
+<QuadTree dataset={dataset || $data} y="y" let:x let:y let:visible let:found let:e>
 	{@const foundSorted = sortResult(found)}
 	{#if visible === true}
 		<div style="left:{x}px;" class="line"></div>

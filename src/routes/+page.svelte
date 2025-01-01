@@ -50,12 +50,10 @@
 	// label
 	const formatLabelX = (d: number): string => d.toString();
 	const formatLabelY = (d: number): string => format(`~s`)(d);
-
-	console.log('groupedData:', groupedData);
 </script>
 
 <div class="page-container">
-	<!-- top pic and words -->
+	<!-- top pic and title -->
 	<FrontLayout
 		frontImgUrl="./src/routes/_img/baltimore_oyster.jpg"
 		title="The Black Oysterman Taking Half Shells From the Bar to the Block"
@@ -83,7 +81,7 @@
 
 			<Html>
 				<Labels />
-				<SharedTooltip dataset={groupedData} formatTitle={formatLabelX} />
+				<SharedTooltip formatTitle={formatLabelX} dataset={data} />
 			</Html>
 		</LayerCake>
 	</div>

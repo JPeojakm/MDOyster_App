@@ -38,16 +38,16 @@
 	}));
 
 	const marylandYears = data
-		.filter(d => d.State === 'MARYLAND') // 获取 Maryland 的数据
+		.filter(d => d.State === 'MARYLAND') // get data of Maryland
 		.map(d => d.Year)
-		.sort((a, b) => a - b); // 按年份排序
+		.sort((a, b) => a - b); // order by year
 
-	const fiveYearTicks = marylandYears.filter(year => year % 5 === 0); // 筛选年份为 5 的倍数
+	const fiveYearTicks = marylandYears.filter(year => year % 5 === 0); // x axis ticks
 
-	// 定义颜色映射
-	const seriesColors = ['#ff0000', '#00ff00', '#0000ff']; // 三种颜色分别对应州
+	// define the color
+	const seriesColors = ['#ff0000', '#00ff00', '#0000ff']; // define the color
 
-	// 格式化轴标签
+	// label
 	const formatLabelX = (d: number): string => d.toString();
 	const formatLabelY = (d: number): string => format(`~s`)(d);
 
@@ -55,14 +55,14 @@
 </script>
 
 <div class="page-container">
-	<!-- 顶部图片和文字部分 -->
+	<!-- top pic and words -->
 	<FrontLayout
 		frontImgUrl="./src/routes/_img/baltimore_oyster.jpg"
 		title="The Black Oysterman Taking Half Shells From the Bar to the Block"
 		description="The Brooklyn man behind the Real Mother Shuckers wants to return oysters to ubiquity in New York City and honor the legacy of Black oystermen."
 	/>
 
-	<!-- 图表部分 -->
+	<!-- graphic -->
 	<div class="chart-container">
 		<LayerCake
 			x="Year"
@@ -92,6 +92,6 @@
 <style>
 	.chart-container {
 		width: 100%;
-		height: 400px; /* 调整高度适配折线图 */
+		height: 400px; /* adjust the height */
 	}
 </style>

@@ -30,22 +30,13 @@
 	$: yGetter = y === 'y' ? $yGet : $xGet;
 
 	function findItem(evt) {
-		console.log('Mouse Event:', evt);
+		e = evt;
 
 		const xLayerKey = `layer${x.toUpperCase()}`;
 		const yLayerKey = `layer${y.toUpperCase()}`;
 
-		const correctedX = evt[xLayerKey]; // 未校正鼠标 x 坐标
-		const correctedY = evt[yLayerKey]; // 未校正鼠标 y 坐标
-
-		console.log('Corrected Mouse Position:', correctedX, correctedY);
-		console.log('Width:', $width, 'Height:', $height);
-
-		found = finder.find(correctedX, correctedY, searchRadius) || {};
+		found = finder.find(evt[xLayerKey], evt[yLayerKey], searchRadius) || {};
 		visible = Object.keys(found).length > 0;
-
-		console.log('Found Point:', found);
-		console.log('Visible:', visible);
 	}
 
 	$: finder = quadtree()

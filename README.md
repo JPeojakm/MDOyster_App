@@ -1,15 +1,5 @@
-# Layer Cake Example
-
-This is a starter example for using [Layer Cake](https://layercake.graphics). It sets you up with the line and area chart as seen [in the examples](https://layercake.graphics/example/Line). It uses [SvelteKit](https://kit.svelte.dev/docs/) and so the file structure and file naming conventions come from there.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit mhkeller/layercake-template my-chart
-cd my-chart
-```
-
-_Note that you will need to have [Node.js](https://nodejs.org) installed._
+This is a personal project based on my interests. In March 2024, I attended the NICAR conference in Baltimore, where I had oysters twice over three days. This inspired me to explore data on the relationship between Maryland oysters and climate change. This app is built on the <a href=
+"https://layercake.graphics/" target="\_blank">Layercake</a> framework. You can find my analysis code in <a href= "https://github.com/JPeojakm/MDoyster" target="\_blank">this repository</a>.
 
 ## Get started
 
@@ -20,8 +10,6 @@ npm install
 npm run build && npm run preview
 ```
 
-Your app will be running at [localhost:4173](http://localhost:4173).
-
 ## Developing
 
 ```sh
@@ -29,5 +17,3 @@ Your app will be running at [localhost:4173](http://localhost:4173).
 npm install
 npm run dev
 ```
-
-Your app will be running at [localhost:5173](http://localhost:5173).

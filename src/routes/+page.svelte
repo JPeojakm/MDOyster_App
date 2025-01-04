@@ -13,6 +13,7 @@
 	import Scrolly from './_components/Scrolly.svelte';
 
 	import data from './_data/FOSS_landings.json';
+	import aqaculture from './_data/aqaculture_midatlantic.json';
 
 	const xKey = 'Year'; // x-axis
 	const yKey = 'Metric Tons'; // y-axis
@@ -43,7 +44,7 @@
 	const fiveYearTicks = marylandYears.filter(year => year % 5 === 0); // x axis ticks
 
 	// define the color
-	const seriesColors = ['#ff0000', '#00ff00', '#0000ff']; // define the color
+	const seriesColors = ['#0077BE', '#D9D9D9', '#F4D35E']; // define the color, yellow, blue and grey
 
 	// label formatters
 	const formatLabelX = (d: number): string => d.toString();
@@ -158,41 +159,32 @@
 			region's ecology and economy for centuries.
 		</p>
 		<p>
-			However, overfishing, disease, and habitat loss have significantly reduced oyster populations.
-			This has led to efforts like Maryland's Oyster Restoration and Aquaculture Development Plan,
-			which aims to revive the native oyster population and ensure their sustainability for future
-			generations.
+			In 2010, Maryland began accepting applications for commercial shellfish aquaculture projects
+			in the Chesapeake Bay. These leases allow individuals and businesses to cultivate oysters and
+			other shellfish in designated areas of public waters.
 		</p>
 		<p>
-			However, overfishing, disease, and habitat loss have significantly reduced oyster populations.
-			This has led to efforts like Maryland's Oyster Restoration and Aquaculture Development Plan,
-			which aims to revive the native oyster population and ensure their sustainability for future
-			generations.
+			There are two primary methods for oyster farming. Submerged land leases involve growing
+			oysters directly on prepared bottoms for harvest, while water-column leases use single oysters
+			placed in containerized gear, typically in cages resting on the bottom of the estuary or
+			floating onat the surface.
 		</p>
 		<p>
-			However, overfishing, disease, and habitat loss have significantly reduced oyster populations.
-			This has led to efforts like Maryland's Oyster Restoration and Aquaculture Development Plan,
-			which aims to revive the native oyster population and ensure their sustainability for future
-			generations.
-		</p>
-		<p>
-			However, overfishing, disease, and habitat loss have significantly reduced oyster populations.
-			This has led to efforts like Maryland's Oyster Restoration and Aquaculture Development Plan,
-			which aims to revive the native oyster population and ensure their sustainability for future
-			generations.
+			According to the Maryland Department of Natural Resources (MDNR), Maryland had issued 477
+			shellfish leases by the end of 2022, which covered 7,685 acres of state waterways.
 		</p>
 	</div>
 </div>
 
 <style>
 	:global(body) {
-		font-family: 'Newsreader', serif; /* 设置页面默认字体 */
+		font-family: 'Newsreader', serif;
 		background-color: #ffffff;
 		margin: 0;
 		padding: 0;
-		font-size: 23px; /* 设置全局字体大小 */
-		line-height: 1.2; /* 设置全局行间距 */
-		color: #333; /* 设置字体颜色，增强可读性 */
+		font-size: 23px;
+		line-height: 1.2;
+		color: #333;
 	}
 
 	.page-container {
@@ -214,8 +206,6 @@
 		top: 10%;
 		background: #f9f9f9;
 		padding: 10px;
-		border-radius: 10px;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	}
 
 	.scrolly-container {

@@ -1,0 +1,122 @@
+[
+	{
+		"Year": 2012,
+		"Pieces": 1002000,
+		"State": "MD"
+	},
+	{
+		"Year": 2013,
+		"Pieces": 6728400,
+		"State": "MD"
+	},
+	{
+		"Year": 2014,
+		"Pieces": 10251900,
+		"State": "MD"
+	},
+	{
+		"Year": 2015,
+		"Pieces": 15191100,
+		"State": "MD"
+	},
+	{
+		"Year": 2016,
+		"Pieces": 18971700,
+		"State": "MD"
+	},
+	{
+		"Year": 2017,
+		"Pieces": 22219800,
+		"State": "MD"
+	},
+	{
+		"Year": 2018,
+		"Pieces": 17262900,
+		"State": "MD"
+	},
+	{
+		"Year": 2019,
+		"Pieces": 16470900,
+		"State": "MD"
+	},
+	{
+		"Year": 2020,
+		"Pieces": 1412400,
+		"State": "MD"
+	},
+	{
+		"Year": 2021,
+		"Pieces": "27008700",
+		"State": "MD"
+	},
+	{
+		"Year": 2022,
+		"Pieces": "28,277,100",
+		"State": "MD"
+	},
+	{
+		"Year": 2023,
+		"Pieces": "28,285,800",
+		"State": "MD"
+	},
+	{
+		"Year": 2012,
+		"Pieces": "28,000,000",
+		"State": "VA"
+	},
+	{
+		"Year": 2013,
+		"Pieces": "31,000,000",
+		"State": "VA"
+	},
+	{
+		"Year": 2014,
+		"Pieces": "39,500,000",
+		"State": "VA"
+	},
+	{
+		"Year": 2015,
+		"Pieces": "35,500,000",
+		"State": "VA"
+	},
+	{
+		"Year": 2016,
+		"Pieces": "40,250,000",
+		"State": "VA"
+	},
+	{
+		"Year": 2017,
+		"Pieces": "38,900,000",
+		"State": "VA"
+	},
+	{
+		"Year": 2018,
+		"Pieces": "32,100,000",
+		"State": "VA"
+	},
+	{
+		"Year": 2012,
+		"Pieces": 1500000,
+		"State": "NJ"
+	},
+	{
+		"Year": 2013,
+		"Pieces": 1580000,
+		"State": "NJ"
+	},
+	{
+		"Year": 2014,
+		"Pieces": 1627669,
+		"State": "NJ"
+	},
+	{
+		"Year": 2015,
+		"Pieces": 1782000,
+		"State": "NJ"
+	},
+	{
+		"Year": 2016,
+		"Pieces": 2029500,
+		"State": "NJ"
+	}
+]

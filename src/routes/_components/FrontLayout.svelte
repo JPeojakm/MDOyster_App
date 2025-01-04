@@ -5,12 +5,12 @@
 </script>
 
 <section class="front-layout">
-	<!-- 左侧图片 -->
+	<!-- image on the left -->
 	<div class="front-img">
 		<img src={frontImgUrl} alt="Descriptive Alt Text" />
 	</div>
 
-	<!-- 右侧文字 -->
+	<!-- words on the right -->
 	<div class="front-text">
 		<h1>{title}</h1>
 		<p>{description}</p>
@@ -19,39 +19,48 @@
 
 <style>
 	.front-layout {
-		display: flex; /* 使用 flexbox 布局 */
-		align-items: center; /* 垂直居中对齐 */
-		justify-content: space-between; /* 左右分布 */
-		padding: 20px; /* 为整体留白 */
-		gap: 20px; /* 图片和文字之间的间距 */
+		display: flex;
+		width: 100%;
+		height: 100vh; /* 占满屏幕高度 */
+		position: relative; /* 允许滑动后消失 */
 	}
 
 	.front-img {
-		flex: 1; /* 图片部分占据 1/2 的空间 */
-		max-width: 50%; /* 限制图片最大宽度 */
+		flex: 6; /* 左侧占一半 */
+		overflow: hidden;
 	}
 
 	.front-img img {
-		width: 100%; /* 图片宽度填充容器 */
-		height: auto; /* 保持图片比例 */
-		border-radius: 8px; /* 可选：为图片添加圆角 */
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* 保持图片比例 */
 	}
 
 	.front-text {
-		flex: 1; /* 文字部分占据 1/2 的空间 */
-		max-width: 50%; /* 限制文字部分的最大宽度 */
+		flex: 4; /* 右侧占一半 */
+		display: flex;
+		flex-direction: column;
+		justify-content: center; /* 垂直居中 */
+		align-items: center; /* 水平居中 */
+		background: #fff; /* 背景为白色 */
+		text-align: center;
+		padding: 50px 70px; /* 添加左右边距 */
 	}
 
 	.front-text h1 {
-		font-size: 2rem; /* 标题字体大小 */
-		margin-bottom: 10px; /* 标题下方的间距 */
-		line-height: 1.4; /* 行高 */
+		font-size: 3rem; /* 增大标题字体 */
+		margin-bottom: 1.5rem; /* 增加标题和段落的间距 */
+		line-height: 1.3; /* 增加标题的行高 */
+		font-weight: bold; /* 加强标题的视觉效果 */
+		color: #333; /* 改善标题颜色 */
 	}
 
 	.front-text p {
-		font-size: 1rem; /* 正文字体大小 */
-		line-height: 1.6; /* 行高 */
-		color: #555; /* 文本颜色 */
+		font-size: 1.4rem; /* 稍微增大段落字体 */
+		color: #444; /* 使段落文字颜色稍深 */
+		line-height: 1.8; /* 增加段落行高，提升可读性 */
+		margin-top: 0; /* 确保段落顶部没有额外间距 */
+		max-width: 600px; /* 限制段落的最大宽度 */
 	}
 
 	@media (max-width: 768px) {

@@ -10,23 +10,21 @@
 	import Labels from './_components/GroupLabels.html.svelte';
 	import SharedTooltip from './_components/SharedTooltip.html.svelte';
 	import FrontLayout from './_components/FrontLayout.svelte';
+	import Scrolly from './_components/Scrolly.svelte';
 
 	import data from './_data/FOSS_landings.json';
 
-	/* --------------------------------------------
-	 * 设置 x, y, z 键值
-	 */
-	const xKey = 'Year'; // 横轴
-	const yKey = 'Metric Tons'; // 纵轴
-	const zKey = 'State'; // 分组键值
+	const xKey = 'Year'; // x-axis
+	const yKey = 'Metric Tons'; // y-axis
+	const zKey = 'State'; // group: state
 
-	// 数据预处理
+	// prcoessed data
 	data.forEach(d => {
-		d.Year = +d.Year; // 确保 Year 是数字
-		d[yKey] = +d[yKey]; // 确保 Metric Tons 是数字
+		d.Year = +d.Year; // format is number
+		d[yKey] = +d[yKey];
 	});
 
-	// 按 State 分组数据
+	// group data by state
 	const groupedData = [...new Set(data.map(d => d[zKey]))].map(state => ({
 		State: state,
 		values: data
@@ -47,49 +45,160 @@
 	// define the color
 	const seriesColors = ['#ff0000', '#00ff00', '#0000ff']; // define the color
 
-	// label
+	// label formatters
 	const formatLabelX = (d: number): string => d.toString();
 	const formatLabelY = (d: number): string => format(`~s`)(d);
+
+	let currentStep = 0; // scrolly 的绑定值
+	const textSteps = [
+		'In Maryland, the estimated population of native eastern oysters hit a historic low in 2004, dropping to just 19 tons. This figure represents only 0.21% of the historical peak since 1950, according to my analysis of National Oceanic and Atmospheric Administration(NOAA) Fisheries data.',
+		'In 2010, Maryland introduced the Oyster Restoration and Aquaculture Development Plan, which expanded oyster sanctuaries to help rebuild the Chesapeake Bays native oyster population.',
+		'（Explain what is Sanctuaries.',
+		'Under the new plan, the Maryland government designated and deployed an additional 844.24 square kilometers of oyster sanctuaries, a 369.09% increase compared to the previous area, according to my analysis. (Scroll down to find the map).'
+	];
 </script>
 
+<!-- Top pic and title -->
+<FrontLayout
+	frontImgUrl="./src/routes/_img/oyster_frontpage.jpg"
+	title="The Black Oysterman Taking Half Shells From the Bar to the Block"
+	description="The Brooklyn man behind the Real Mother Shuckers wants to return oysters to ubiquity in New York City and honor the legacy of Black oystermen."
+/>
+
 <div class="page-container">
-	<!-- top pic and title -->
-	<FrontLayout
-		frontImgUrl="./src/routes/_img/baltimore_oyster.jpg"
-		title="The Black Oysterman Taking Half Shells From the Bar to the Block"
-		description="The Brooklyn man behind the Real Mother Shuckers wants to return oysters to ubiquity in New York City and honor the legacy of Black oystermen."
-	/>
+	<!-- Additional Paragraphs Section -->
+	<div class="text-section">
+		<p>
+			Oysters are not just a culinary delight; they also play a critical role in maintaining the
+			health of our marine ecosystems. They filter water, provide habitats for marine life, and
+			protect shorelines from erosion. In the Chesapeake Bay, oysters have been integral to the
+			region's ecology and economy for centuries.
+		</p>
+		<p>
+			However, overfishing, disease, and habitat loss have significantly reduced oyster populations.
+			This has led to efforts like Maryland's Oyster Restoration and Aquaculture Development Plan,
+			which aims to revive the native oyster population and ensure their sustainability for future
+			generations.
+		</p>
+	</div>
 
-	<!-- graphic -->
-	<div class="chart-container">
-		<LayerCake
-			x="Year"
-			y="Metric Tons"
-			z="State"
-			xDomain={[Math.min(...marylandYears), Math.max(...marylandYears)]}
-			yDomain={[0, Math.max(...data.map(d => d['Metric Tons']))]}
-			zScale={scaleOrdinal()}
-			zRange={seriesColors}
-			data={groupedData}
-			padding={{ top: 20, right: 30, bottom: 40, left: 50 }}
-		>
-			<Svg>
-				<AxisX gridlines={false} ticks={fiveYearTicks} format={formatLabelX} tickMarks />
-				<AxisY gridlines={true} ticks={4} format={formatLabelY} />
-				<MultiLine />
-			</Svg>
+	<div class="content-container">
+		<!-- Graphic on the left -->
+		<div class="chart-container">
+			<LayerCake
+				x="Year"
+				y="Metric Tons"
+				z="State"
+				xDomain={[Math.min(...marylandYears), Math.max(...marylandYears)]}
+				yDomain={[0, Math.max(...data.map(d => d['Metric Tons']))]}
+				zScale={scaleOrdinal()}
+				zRange={seriesColors}
+				data={groupedData}
+				padding={{ top: 20, right: 30, bottom: 40, left: 50 }}
+			>
+				<Svg let:xScale let:height let:xDomain>
+					<!-- Gray background for 2010 onward -->
+					{#if currentStep >= 1}
+						<rect
+							x={xScale(2010)}
+							y="0"
+							width={xScale(xDomain[1]) - xScale(2010)}
+							{height}
+							fill="rgba(128, 128, 128, 0.2)"
+						/>
+						<!-- Dashed vertical line for 2010 -->
+						<line
+							x1={xScale(2010)}
+							y1="0"
+							x2={xScale(2010)}
+							y2={height}
+							stroke="black"
+							stroke-dasharray="5,5"
+							stroke-width="2"
+						/>
+					{/if}
 
-			<Html>
-				<Labels />
-				<SharedTooltip formatTitle={formatLabelX} dataset={data} />
-			</Html>
-		</LayerCake>
+					<AxisX gridlines={false} ticks={fiveYearTicks} format={formatLabelX} tickMarks />
+					<AxisY gridlines={true} ticks={4} format={formatLabelY} />
+					<MultiLine />
+				</Svg>
+
+				<Html>
+					<Labels />
+				</Html>
+			</LayerCake>
+		</div>
+
+		<!-- Scrolly content on the right -->
+		<div class="scrolly-container">
+			<Scrolly bind:value={currentStep}>
+				{#each textSteps as text, i}
+					<div class="step" class:active={currentStep === i}>
+						<div class="step-content">
+							<p>{text}</p>
+						</div>
+					</div>
+				{/each}
+			</Scrolly>
+		</div>
 	</div>
 </div>
 
 <style>
+	.page-container {
+		max-width: 1100px;
+		margin: 0 auto;
+		padding: 20px;
+		background: #ffffff;
+	}
+
+	.content-container {
+		display: flex;
+		gap: 20px;
+	}
+
 	.chart-container {
-		width: 100%;
-		height: 400px; /* adjust the height */
+		width: 65%;
+		height: 80vh;
+		position: sticky;
+		top: 10%;
+		background: #f9f9f9;
+		padding: 10px;
+		border-radius: 10px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	}
+
+	.scrolly-container {
+		width: 30%;
+		padding: 1rem;
+		overflow-y: auto;
+		background: #ffffff;
+	}
+
+	.step {
+		height: 80vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.step-content {
+		background: rgba(255, 255, 255, 0.8);
+		color: #333;
+		padding: 1rem 2rem;
+		border-radius: 8px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		opacity: 0.5;
+		transform: translateY(20px);
+		transition:
+			opacity 0.3s ease,
+			transform 0.3s ease;
+	}
+
+	.step.active .step-content {
+		opacity: 1;
+		transform: translateY(0);
+		background: white;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 	}
 </style>

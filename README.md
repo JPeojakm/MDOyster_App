@@ -1,4 +1,8 @@
-This is a personal project based on my interests. In March 2024, I attended the NICAR conference in Baltimore, where I had oysters twice over three days. This inspired me to explore data on the relationship between Maryland oysters and climate change. This app is built on the <a href=
+This is a personal project based on my interests. In March 2024, I attended the NICAR conference in Baltimore, where I had oysters twice over three days. This inspired me to explore data on the relationship between Maryland oysters and climate change.
+
+Another personal goal is to showcase my graphic design skills, delve into climate change-related news, and develop my ability to pitch and write stories at the local level.
+
+This app is built on the <a href=
 "https://layercake.graphics/" target="\_blank">Layercake</a> framework. You can find my analysis code in <a href= "https://github.com/JPeojakm/MDoyster" target="\_blank">this repository</a>.
 
 ## Get started

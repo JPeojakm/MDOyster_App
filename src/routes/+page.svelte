@@ -226,8 +226,6 @@
 		background: rgba(255, 255, 255, 0.8);
 		color: #333;
 		padding: 1rem 2rem;
-		border-radius: 8px;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 		opacity: 0.5;
 		transform: translateY(20px);
 		transition:
@@ -239,6 +237,5 @@
 		opacity: 1;
 		transform: translateY(0);
 		background: white;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 	}
 </style>

@@ -45,6 +45,7 @@
 		background: #fff; /* 背景为白色 */
 		text-align: center;
 		padding: 50px 70px; /* 添加左右边距 */
+		font-family: 'Zen Antique Soft', serif;
 	}
 
 	.front-text h1 {

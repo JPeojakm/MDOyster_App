@@ -58,6 +58,13 @@
 	];
 </script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+	href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;1,400&family=Zen+Antique+Soft&display=swap"
+	rel="stylesheet"
+/>
+
 <!-- Top pic and title -->
 <FrontLayout
 	frontImgUrl="./src/routes/_img/oyster_frontpage.jpg"
@@ -142,9 +149,52 @@
 			</Scrolly>
 		</div>
 	</div>
+
+	<div class="text-section">
+		<p>
+			Oysters are not just a culinary delight; they also play a critical role in maintaining the
+			health of our marine ecosystems. They filter water, provide habitats for marine life, and
+			protect shorelines from erosion. In the Chesapeake Bay, oysters have been integral to the
+			region's ecology and economy for centuries.
+		</p>
+		<p>
+			However, overfishing, disease, and habitat loss have significantly reduced oyster populations.
+			This has led to efforts like Maryland's Oyster Restoration and Aquaculture Development Plan,
+			which aims to revive the native oyster population and ensure their sustainability for future
+			generations.
+		</p>
+		<p>
+			However, overfishing, disease, and habitat loss have significantly reduced oyster populations.
+			This has led to efforts like Maryland's Oyster Restoration and Aquaculture Development Plan,
+			which aims to revive the native oyster population and ensure their sustainability for future
+			generations.
+		</p>
+		<p>
+			However, overfishing, disease, and habitat loss have significantly reduced oyster populations.
+			This has led to efforts like Maryland's Oyster Restoration and Aquaculture Development Plan,
+			which aims to revive the native oyster population and ensure their sustainability for future
+			generations.
+		</p>
+		<p>
+			However, overfishing, disease, and habitat loss have significantly reduced oyster populations.
+			This has led to efforts like Maryland's Oyster Restoration and Aquaculture Development Plan,
+			which aims to revive the native oyster population and ensure their sustainability for future
+			generations.
+		</p>
+	</div>
 </div>
 
 <style>
+	:global(body) {
+		font-family: 'Newsreader', serif; /* 设置页面默认字体 */
+		background-color: #ffffff;
+		margin: 0;
+		padding: 0;
+		font-size: 23px; /* 设置全局字体大小 */
+		line-height: 1.2; /* 设置全局行间距 */
+		color: #333; /* 设置字体颜色，增强可读性 */
+	}
+
 	.page-container {
 		max-width: 1100px;
 		margin: 0 auto;

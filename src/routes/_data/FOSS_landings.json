@@ -1,0 +1,1007 @@
+[
+  {
+    "Year": 2023,
+    "State": "MARYLAND",
+    "Metric Tons": 872
+  },
+  {
+    "Year": 2023,
+    "State": "VIRGINIA",
+    "Metric Tons": 1980
+  },
+  {
+    "Year": 2022,
+    "State": "MARYLAND",
+    "Metric Tons": 802
+  },
+  {
+    "Year": 2022,
+    "State": "VIRGINIA",
+    "Metric Tons": 2009
+  },
+  {
+    "Year": 2021,
+    "State": "MARYLAND",
+    "Metric Tons": 631
+  },
+  {
+    "Year": 2021,
+    "State": "VIRGINIA",
+    "Metric Tons": 1648
+  },
+  {
+    "Year": 2020,
+    "State": "MARYLAND",
+    "Metric Tons": 425
+  },
+  {
+    "Year": 2020,
+    "State": "VIRGINIA",
+    "Metric Tons": 1352
+  },
+  {
+    "Year": 2019,
+    "State": "MARYLAND",
+    "Metric Tons": 298
+  },
+  {
+    "Year": 2019,
+    "State": "VIRGINIA",
+    "Metric Tons": 1558
+  },
+  {
+    "Year": 2018,
+    "State": "MARYLAND",
+    "Metric Tons": 211
+  },
+  {
+    "Year": 2018,
+    "State": "VIRGINIA",
+    "Metric Tons": 1724
+  },
+  {
+    "Year": 2017,
+    "State": "MARYLAND",
+    "Metric Tons": 305
+  },
+  {
+    "Year": 2017,
+    "State": "VIRGINIA",
+    "Metric Tons": 1854
+  },
+  {
+    "Year": 2016,
+    "State": "MARYLAND",
+    "Metric Tons": 402
+  },
+  {
+    "Year": 2016,
+    "State": "VIRGINIA",
+    "Metric Tons": 1849
+  },
+  {
+    "Year": 2015,
+    "State": "MARYLAND",
+    "Metric Tons": 540
+  },
+  {
+    "Year": 2015,
+    "State": "VIRGINIA",
+    "Metric Tons": 2081
+  },
+  {
+    "Year": 2014,
+    "State": "MARYLAND",
+    "Metric Tons": 543
+  },
+  {
+    "Year": 2014,
+    "State": "VIRGINIA",
+    "Metric Tons": 1708
+  },
+  {
+    "Year": 2013,
+    "State": "MARYLAND",
+    "Metric Tons": 637
+  },
+  {
+    "Year": 2013,
+    "State": "VIRGINIA",
+    "Metric Tons": 1471
+  },
+  {
+    "Year": 2012,
+    "State": "MARYLAND",
+    "Metric Tons": 278
+  },
+  {
+    "Year": 2012,
+    "State": "VIRGINIA",
+    "Metric Tons": 885
+  },
+  {
+    "Year": 2011,
+    "State": "MARYLAND",
+    "Metric Tons": 161
+  },
+  {
+    "Year": 2011,
+    "State": "VIRGINIA",
+    "Metric Tons": 687
+  },
+  {
+    "Year": 2010,
+    "State": "MARYLAND",
+    "Metric Tons": 185
+  },
+  {
+    "Year": 2010,
+    "State": "VIRGINIA",
+    "Metric Tons": 534
+  },
+  {
+    "Year": 2009,
+    "State": "MARYLAND",
+    "Metric Tons": 226
+  },
+  {
+    "Year": 2009,
+    "State": "VIRGINIA",
+    "Metric Tons": 364
+  },
+  {
+    "Year": 2008,
+    "State": "MARYLAND",
+    "Metric Tons": 113
+  },
+  {
+    "Year": 2008,
+    "State": "NEW JERSEY",
+    "Metric Tons": 250
+  },
+  {
+    "Year": 2008,
+    "State": "VIRGINIA",
+    "Metric Tons": 348
+  },
+  {
+    "Year": 2007,
+    "State": "MARYLAND",
+    "Metric Tons": 144
+  },
+  {
+    "Year": 2007,
+    "State": "VIRGINIA",
+    "Metric Tons": 843
+  },
+  {
+    "Year": 2006,
+    "State": "MARYLAND",
+    "Metric Tons": 124
+  },
+  {
+    "Year": 2006,
+    "State": "NEW JERSEY",
+    "Metric Tons": 156
+  },
+  {
+    "Year": 2006,
+    "State": "VIRGINIA",
+    "Metric Tons": 0
+  },
+  {
+    "Year": 2005,
+    "State": "MARYLAND",
+    "Metric Tons": 335
+  },
+  {
+    "Year": 2005,
+    "State": "NEW JERSEY",
+    "Metric Tons": 73
+  },
+  {
+    "Year": 2004,
+    "State": "MARYLAND",
+    "Metric Tons": 19
+  },
+  {
+    "Year": 2004,
+    "State": "NEW JERSEY",
+    "Metric Tons": 147
+  },
+  {
+    "Year": 2004,
+    "State": "VIRGINIA",
+    "Metric Tons": 20
+  },
+  {
+    "Year": 2003,
+    "State": "MARYLAND",
+    "Metric Tons": 72
+  },
+  {
+    "Year": 2003,
+    "State": "NEW JERSEY",
+    "Metric Tons": 324
+  },
+  {
+    "Year": 2003,
+    "State": "VIRGINIA",
+    "Metric Tons": 35
+  },
+  {
+    "Year": 2002,
+    "State": "MARYLAND",
+    "Metric Tons": 257
+  },
+  {
+    "Year": 2002,
+    "State": "NEW JERSEY",
+    "Metric Tons": 172
+  },
+  {
+    "Year": 2002,
+    "State": "VIRGINIA",
+    "Metric Tons": 44
+  },
+  {
+    "Year": 2001,
+    "State": "MARYLAND",
+    "Metric Tons": 578
+  },
+  {
+    "Year": 2001,
+    "State": "NEW JERSEY",
+    "Metric Tons": 187
+  },
+  {
+    "Year": 2001,
+    "State": "VIRGINIA",
+    "Metric Tons": 95
+  },
+  {
+    "Year": 2000,
+    "State": "MARYLAND",
+    "Metric Tons": 1074
+  },
+  {
+    "Year": 2000,
+    "State": "NEW JERSEY",
+    "Metric Tons": 92
+  },
+  {
+    "Year": 2000,
+    "State": "VIRGINIA",
+    "Metric Tons": 74
+  },
+  {
+    "Year": 1999,
+    "State": "MARYLAND",
+    "Metric Tons": 1107
+  },
+  {
+    "Year": 1999,
+    "State": "NEW JERSEY",
+    "Metric Tons": 187
+  },
+  {
+    "Year": 1999,
+    "State": "VIRGINIA",
+    "Metric Tons": 157
+  },
+  {
+    "Year": 1998,
+    "State": "MARYLAND",
+    "Metric Tons": 1116
+  },
+  {
+    "Year": 1998,
+    "State": "NEW JERSEY",
+    "Metric Tons": 319
+  },
+  {
+    "Year": 1998,
+    "State": "VIRGINIA",
+    "Metric Tons": 101
+  },
+  {
+    "Year": 1997,
+    "State": "MARYLAND",
+    "Metric Tons": 648
+  },
+  {
+    "Year": 1997,
+    "State": "NEW JERSEY",
+    "Metric Tons": 269
+  },
+  {
+    "Year": 1997,
+    "State": "VIRGINIA",
+    "Metric Tons": 138
+  },
+  {
+    "Year": 1996,
+    "State": "MARYLAND",
+    "Metric Tons": 403
+  },
+  {
+    "Year": 1996,
+    "State": "NEW JERSEY",
+    "Metric Tons": 156
+  },
+  {
+    "Year": 1996,
+    "State": "VIRGINIA",
+    "Metric Tons": 72
+  },
+  {
+    "Year": 1995,
+    "State": "MARYLAND",
+    "Metric Tons": 543
+  },
+  {
+    "Year": 1995,
+    "State": "NEW JERSEY",
+    "Metric Tons": 71
+  },
+  {
+    "Year": 1995,
+    "State": "VIRGINIA",
+    "Metric Tons": 181
+  },
+  {
+    "Year": 1994,
+    "State": "MARYLAND",
+    "Metric Tons": 371
+  },
+  {
+    "Year": 1994,
+    "State": "VIRGINIA",
+    "Metric Tons": 136
+  },
+  {
+    "Year": 1993,
+    "State": "MARYLAND",
+    "Metric Tons": 75
+  },
+  {
+    "Year": 1993,
+    "State": "VIRGINIA",
+    "Metric Tons": 185
+  },
+  {
+    "Year": 1992,
+    "State": "MARYLAND",
+    "Metric Tons": 666
+  },
+  {
+    "Year": 1992,
+    "State": "NEW JERSEY",
+    "Metric Tons": 15
+  },
+  {
+    "Year": 1992,
+    "State": "VIRGINIA",
+    "Metric Tons": 329
+  },
+  {
+    "Year": 1991,
+    "State": "MARYLAND",
+    "Metric Tons": 761
+  },
+  {
+    "Year": 1991,
+    "State": "NEW JERSEY",
+    "Metric Tons": 95
+  },
+  {
+    "Year": 1991,
+    "State": "VIRGINIA",
+    "Metric Tons": 773
+  },
+  {
+    "Year": 1990,
+    "State": "MARYLAND",
+    "Metric Tons": 1307
+  },
+  {
+    "Year": 1990,
+    "State": "NEW JERSEY",
+    "Metric Tons": 227
+  },
+  {
+    "Year": 1990,
+    "State": "VIRGINIA",
+    "Metric Tons": 741
+  },
+  {
+    "Year": 1989,
+    "State": "MARYLAND",
+    "Metric Tons": 1056
+  },
+  {
+    "Year": 1989,
+    "State": "VIRGINIA",
+    "Metric Tons": 896
+  },
+  {
+    "Year": 1988,
+    "State": "MARYLAND",
+    "Metric Tons": 1093
+  },
+  {
+    "Year": 1988,
+    "State": "VIRGINIA",
+    "Metric Tons": 1328
+  },
+  {
+    "Year": 1987,
+    "State": "MARYLAND",
+    "Metric Tons": 1734
+  },
+  {
+    "Year": 1987,
+    "State": "NEW JERSEY",
+    "Metric Tons": 7
+  },
+  {
+    "Year": 1987,
+    "State": "VIRGINIA",
+    "Metric Tons": 2189
+  },
+  {
+    "Year": 1986,
+    "State": "MARYLAND",
+    "Metric Tons": 3611
+  },
+  {
+    "Year": 1986,
+    "State": "NEW JERSEY",
+    "Metric Tons": 48
+  },
+  {
+    "Year": 1986,
+    "State": "VIRGINIA",
+    "Metric Tons": 2622
+  },
+  {
+    "Year": 1985,
+    "State": "MARYLAND",
+    "Metric Tons": 3900
+  },
+  {
+    "Year": 1985,
+    "State": "NEW JERSEY",
+    "Metric Tons": 133
+  },
+  {
+    "Year": 1985,
+    "State": "VIRGINIA",
+    "Metric Tons": 2052
+  },
+  {
+    "Year": 1984,
+    "State": "MARYLAND",
+    "Metric Tons": 3648
+  },
+  {
+    "Year": 1984,
+    "State": "NEW JERSEY",
+    "Metric Tons": 358
+  },
+  {
+    "Year": 1984,
+    "State": "VIRGINIA",
+    "Metric Tons": 1960
+  },
+  {
+    "Year": 1983,
+    "State": "MARYLAND",
+    "Metric Tons": 3377
+  },
+  {
+    "Year": 1983,
+    "State": "NEW JERSEY",
+    "Metric Tons": 320
+  },
+  {
+    "Year": 1983,
+    "State": "VIRGINIA",
+    "Metric Tons": 1902
+  },
+  {
+    "Year": 1982,
+    "State": "MARYLAND",
+    "Metric Tons": 5568
+  },
+  {
+    "Year": 1982,
+    "State": "NEW JERSEY",
+    "Metric Tons": 291
+  },
+  {
+    "Year": 1982,
+    "State": "VIRGINIA",
+    "Metric Tons": 2381
+  },
+  {
+    "Year": 1981,
+    "State": "MARYLAND",
+    "Metric Tons": 7131
+  },
+  {
+    "Year": 1981,
+    "State": "NEW JERSEY",
+    "Metric Tons": 203
+  },
+  {
+    "Year": 1981,
+    "State": "VIRGINIA",
+    "Metric Tons": 2669
+  },
+  {
+    "Year": 1980,
+    "State": "MARYLAND",
+    "Metric Tons": 6779
+  },
+  {
+    "Year": 1980,
+    "State": "NEW JERSEY",
+    "Metric Tons": 343
+  },
+  {
+    "Year": 1980,
+    "State": "VIRGINIA",
+    "Metric Tons": 3559
+  },
+  {
+    "Year": 1979,
+    "State": "MARYLAND",
+    "Metric Tons": 6119
+  },
+  {
+    "Year": 1979,
+    "State": "NEW JERSEY",
+    "Metric Tons": 760
+  },
+  {
+    "Year": 1979,
+    "State": "VIRGINIA",
+    "Metric Tons": 3718
+  },
+  {
+    "Year": 1978,
+    "State": "MARYLAND",
+    "Metric Tons": 6520
+  },
+  {
+    "Year": 1978,
+    "State": "NEW JERSEY",
+    "Metric Tons": 704
+  },
+  {
+    "Year": 1978,
+    "State": "VIRGINIA",
+    "Metric Tons": 3668
+  },
+  {
+    "Year": 1977,
+    "State": "MARYLAND",
+    "Metric Tons": 5910
+  },
+  {
+    "Year": 1977,
+    "State": "NEW JERSEY",
+    "Metric Tons": 556
+  },
+  {
+    "Year": 1977,
+    "State": "VIRGINIA",
+    "Metric Tons": 2261
+  },
+  {
+    "Year": 1976,
+    "State": "MARYLAND",
+    "Metric Tons": 6750
+  },
+  {
+    "Year": 1976,
+    "State": "NEW JERSEY",
+    "Metric Tons": 636
+  },
+  {
+    "Year": 1976,
+    "State": "VIRGINIA",
+    "Metric Tons": 2760
+  },
+  {
+    "Year": 1975,
+    "State": "MARYLAND",
+    "Metric Tons": 7440
+  },
+  {
+    "Year": 1975,
+    "State": "NEW JERSEY",
+    "Metric Tons": 441
+  },
+  {
+    "Year": 1975,
+    "State": "VIRGINIA",
+    "Metric Tons": 2829
+  },
+  {
+    "Year": 1974,
+    "State": "MARYLAND",
+    "Metric Tons": 8294
+  },
+  {
+    "Year": 1974,
+    "State": "NEW JERSEY",
+    "Metric Tons": 458
+  },
+  {
+    "Year": 1974,
+    "State": "VIRGINIA",
+    "Metric Tons": 3056
+  },
+  {
+    "Year": 1973,
+    "State": "MARYLAND",
+    "Metric Tons": 9263
+  },
+  {
+    "Year": 1973,
+    "State": "NEW JERSEY",
+    "Metric Tons": 634
+  },
+  {
+    "Year": 1973,
+    "State": "VIRGINIA",
+    "Metric Tons": 2259
+  },
+  {
+    "Year": 1972,
+    "State": "MARYLAND",
+    "Metric Tons": 8642
+  },
+  {
+    "Year": 1972,
+    "State": "NEW JERSEY",
+    "Metric Tons": 778
+  },
+  {
+    "Year": 1972,
+    "State": "VIRGINIA",
+    "Metric Tons": 2275
+  },
+  {
+    "Year": 1971,
+    "State": "MARYLAND",
+    "Metric Tons": 7764
+  },
+  {
+    "Year": 1971,
+    "State": "NEW JERSEY",
+    "Metric Tons": 395
+  },
+  {
+    "Year": 1971,
+    "State": "VIRGINIA",
+    "Metric Tons": 3829
+  },
+  {
+    "Year": 1970,
+    "State": "MARYLAND",
+    "Metric Tons": 7541
+  },
+  {
+    "Year": 1970,
+    "State": "NEW JERSEY",
+    "Metric Tons": 307
+  },
+  {
+    "Year": 1970,
+    "State": "VIRGINIA",
+    "Metric Tons": 3648
+  },
+  {
+    "Year": 1969,
+    "State": "MARYLAND",
+    "Metric Tons": 6677
+  },
+  {
+    "Year": 1969,
+    "State": "NEW JERSEY",
+    "Metric Tons": 480
+  },
+  {
+    "Year": 1969,
+    "State": "VIRGINIA",
+    "Metric Tons": 3373
+  },
+  {
+    "Year": 1968,
+    "State": "MARYLAND",
+    "Metric Tons": 6747
+  },
+  {
+    "Year": 1968,
+    "State": "NEW JERSEY",
+    "Metric Tons": 599
+  },
+  {
+    "Year": 1968,
+    "State": "VIRGINIA",
+    "Metric Tons": 3540
+  },
+  {
+    "Year": 1967,
+    "State": "MARYLAND",
+    "Metric Tons": 7589
+  },
+  {
+    "Year": 1967,
+    "State": "NEW JERSEY",
+    "Metric Tons": 466
+  },
+  {
+    "Year": 1967,
+    "State": "VIRGINIA",
+    "Metric Tons": 4113
+  },
+  {
+    "Year": 1966,
+    "State": "MARYLAND",
+    "Metric Tons": 5347
+  },
+  {
+    "Year": 1966,
+    "State": "NEW JERSEY",
+    "Metric Tons": 315
+  },
+  {
+    "Year": 1966,
+    "State": "VIRGINIA",
+    "Metric Tons": 4283
+  },
+  {
+    "Year": 1965,
+    "State": "MARYLAND",
+    "Metric Tons": 3910
+  },
+  {
+    "Year": 1965,
+    "State": "NEW JERSEY",
+    "Metric Tons": 237
+  },
+  {
+    "Year": 1965,
+    "State": "VIRGINIA",
+    "Metric Tons": 5701
+  },
+  {
+    "Year": 1964,
+    "State": "MARYLAND",
+    "Metric Tons": 3605
+  },
+  {
+    "Year": 1964,
+    "State": "NEW JERSEY",
+    "Metric Tons": 498
+  },
+  {
+    "Year": 1964,
+    "State": "VIRGINIA",
+    "Metric Tons": 6418
+  },
+  {
+    "Year": 1963,
+    "State": "MARYLAND",
+    "Metric Tons": 3518
+  },
+  {
+    "Year": 1963,
+    "State": "NEW JERSEY",
+    "Metric Tons": 234
+  },
+  {
+    "Year": 1963,
+    "State": "VIRGINIA",
+    "Metric Tons": 4771
+  },
+  {
+    "Year": 1962,
+    "State": "MARYLAND",
+    "Metric Tons": 3691
+  },
+  {
+    "Year": 1962,
+    "State": "NEW JERSEY",
+    "Metric Tons": 705
+  },
+  {
+    "Year": 1962,
+    "State": "VIRGINIA",
+    "Metric Tons": 5352
+  },
+  {
+    "Year": 1961,
+    "State": "MARYLAND",
+    "Metric Tons": 4689
+  },
+  {
+    "Year": 1961,
+    "State": "NEW JERSEY",
+    "Metric Tons": 499
+  },
+  {
+    "Year": 1961,
+    "State": "VIRGINIA",
+    "Metric Tons": 7785
+  },
+  {
+    "Year": 1960,
+    "State": "MARYLAND",
+    "Metric Tons": 5339
+  },
+  {
+    "Year": 1960,
+    "State": "NEW JERSEY",
+    "Metric Tons": 76
+  },
+  {
+    "Year": 1960,
+    "State": "VIRGINIA",
+    "Metric Tons": 6958
+  },
+  {
+    "Year": 1959,
+    "State": "MARYLAND",
+    "Metric Tons": 5428
+  },
+  {
+    "Year": 1959,
+    "State": "NEW JERSEY",
+    "Metric Tons": 93
+  },
+  {
+    "Year": 1959,
+    "State": "VIRGINIA",
+    "Metric Tons": 9687
+  },
+  {
+    "Year": 1958,
+    "State": "MARYLAND",
+    "Metric Tons": 5455
+  },
+  {
+    "Year": 1958,
+    "State": "NEW JERSEY",
+    "Metric Tons": 376
+  },
+  {
+    "Year": 1958,
+    "State": "VIRGINIA",
+    "Metric Tons": 11568
+  },
+  {
+    "Year": 1957,
+    "State": "MARYLAND",
+    "Metric Tons": 6683
+  },
+  {
+    "Year": 1957,
+    "State": "NEW JERSEY",
+    "Metric Tons": 1234
+  },
+  {
+    "Year": 1957,
+    "State": "VIRGINIA",
+    "Metric Tons": 9113
+  },
+  {
+    "Year": 1956,
+    "State": "MARYLAND",
+    "Metric Tons": 7187
+  },
+  {
+    "Year": 1956,
+    "State": "NEW JERSEY",
+    "Metric Tons": 2496
+  },
+  {
+    "Year": 1956,
+    "State": "VIRGINIA",
+    "Metric Tons": 9625
+  },
+  {
+    "Year": 1955,
+    "State": "MARYLAND",
+    "Metric Tons": 7834
+  },
+  {
+    "Year": 1955,
+    "State": "NEW JERSEY",
+    "Metric Tons": 2361
+  },
+  {
+    "Year": 1955,
+    "State": "VIRGINIA",
+    "Metric Tons": 9959
+  },
+  {
+    "Year": 1954,
+    "State": "MARYLAND",
+    "Metric Tons": 9237
+  },
+  {
+    "Year": 1954,
+    "State": "NEW JERSEY",
+    "Metric Tons": 3324
+  },
+  {
+    "Year": 1954,
+    "State": "VIRGINIA",
+    "Metric Tons": 9627
+  },
+  {
+    "Year": 1953,
+    "State": "MARYLAND",
+    "Metric Tons": 7908
+  },
+  {
+    "Year": 1953,
+    "State": "NEW JERSEY",
+    "Metric Tons": 3849
+  },
+  {
+    "Year": 1953,
+    "State": "VIRGINIA",
+    "Metric Tons": 8850
+  },
+  {
+    "Year": 1952,
+    "State": "MARYLAND",
+    "Metric Tons": 7388
+  },
+  {
+    "Year": 1952,
+    "State": "NEW JERSEY",
+    "Metric Tons": 3626
+  },
+  {
+    "Year": 1952,
+    "State": "VIRGINIA",
+    "Metric Tons": 8224
+  },
+  {
+    "Year": 1951,
+    "State": "MARYLAND",
+    "Metric Tons": 6587
+  },
+  {
+    "Year": 1951,
+    "State": "NEW JERSEY",
+    "Metric Tons": 2613
+  },
+  {
+    "Year": 1951,
+    "State": "VIRGINIA",
+    "Metric Tons": 6839
+  },
+  {
+    "Year": 1950,
+    "State": "MARYLAND",
+    "Metric Tons": 6535
+  },
+  {
+    "Year": 1950,
+    "State": "NEW JERSEY",
+    "Metric Tons": 3285
+  },
+  {
+    "Year": 1950,
+    "State": "VIRGINIA",
+    "Metric Tons": 7052
+  }
+]

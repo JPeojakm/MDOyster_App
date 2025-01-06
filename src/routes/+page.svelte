@@ -289,7 +289,7 @@
 		<p>
 			When comparing restoration areas with sea surface anomalies, <span style="background-color: #f5deb3; font-weight: bold;">my analysis of NOAA satellite data found that 71 sanctuary areas experienced abnormal winter temperatures exceeding 2°C.</span> Most of these sites cluster near Southern Maryland—as if they’ve got front-row seats to the quirks of Maryland's warming waters.
 		</p>
-		<img src="./_img/restoration_winter.png" alt="Chesapeake Bay temperature map">
+		<img src="./_img/restoration_winter.png" alt="Chesapeake Bay temperature map" style="width: 80%; height: auto;">
 		<p>
 			Rising sea temperatures disrupt oysters' natural cycles, potentially causing premature or delayed spawning and reducing their reproductive success.
 		</p>

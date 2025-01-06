@@ -68,7 +68,7 @@
 <!-- Top pic and title -->
 <FrontLayout
 	frontImgUrl="./_img/oyster_frontpage.jpg"
-	title="Maryland Is Bringing Back Once-Extinct Oysters; Will Global Warming Ruin a Decade of Work?"
+	title="Maryland Is Bringing Back Oysters; Will Global Warming Ruin a Decade of Work?"
 	description="77 oyster restoration areas in the Chesapeake Bay are threatened by abnormal sea surface temperatures, according to my analysis."
 />
 
@@ -287,9 +287,9 @@
 
 		</p>
 		<p>
-			When comparing restoration areas with sea surface anomalies, <span style="background-color: #f5deb3; font-weight: bold;">my analysis of NOAA satellite data found that 71 sanctuary areas experienced abnormal winter temperatures exceeding 2°C.</span> All of these sites cluster near Annapolis and Baltimore—as if they’ve got front-row seats to the quirks of Maryland's warming waters.
-
+			When comparing restoration areas with sea surface anomalies, <span style="background-color: #f5deb3; font-weight: bold;">my analysis of NOAA satellite data found that 71 sanctuary areas experienced abnormal winter temperatures exceeding 2°C.</span> Most of these sites cluster near Southern Maryland—as if they’ve got front-row seats to the quirks of Maryland's warming waters.
 		</p>
+		<img src="./_img/restoration_winter.png" alt="Chesapeake Bay temperature map">
 		<p>
 			Rising sea temperatures disrupt oysters' natural cycles, potentially causing premature or delayed spawning and reducing their reproductive success.
 		</p>

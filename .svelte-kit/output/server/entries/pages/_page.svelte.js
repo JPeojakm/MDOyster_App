@@ -18,6 +18,11 @@ function attr(name, value, is_boolean = false) {
   const assignment = is_boolean ? "" : `="${escape_html(normalized, true)}"`;
   return ` ${name}${assignment}`;
 }
+function html(value) {
+  var html2 = String(value ?? "");
+  var open = "<!---->";
+  return open + html2 + "<!---->";
+}
 function canBeZero(val) {
   if (val === 0) {
     return true;
@@ -1300,7 +1305,6 @@ function Scrolly($$payload, $$props) {
   let increments = fallback($$props["increments"], 100);
   let value = fallback($$props["value"], void 0);
   const steps = [];
-  const threshold = [];
   let nodes = [];
   let intersectionObservers = [];
   const update = () => {
@@ -1316,8 +1320,12 @@ function Scrolly($$payload, $$props) {
         maxIndex = i;
       }
     }
-    if (maxRatio > 0) value = maxIndex;
-    else value = void 0;
+    if (maxRatio > 0) {
+      console.log(`Activating step ${maxIndex}`);
+      value = maxIndex;
+    } else {
+      value = void 0;
+    }
   };
   const createObserver = (node, index) => {
     const handleIntersect = (e) => {
@@ -1326,10 +1334,12 @@ function Scrolly($$payload, $$props) {
       steps[index] = ratio;
       mostInView();
     };
-    const marginTop = top ? top * -1 : 0;
-    const marginBottom = bottom ? bottom * -1 : 0;
-    const rootMargin = `${marginTop}px 0px ${marginBottom}px 0px`;
-    const options = { root, rootMargin, threshold };
+    const options = {
+      root: null,
+      rootMargin: "0px 0px -50px 0px",
+      threshold: [0.1, 0.5, 1]
+      // 元素至少有 50% 可见才触发
+    };
     if (intersectionObservers[index]) intersectionObservers[index].disconnect();
     const io = new IntersectionObserver(handleIntersect, options);
     io.observe(node);
@@ -2381,10 +2391,10 @@ function _page($$payload, $$props) {
     $$payload2.out += `<link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""> <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;1,400&amp;family=Zen+Antique+Soft&amp;display=swap" rel="stylesheet"> `;
     FrontLayout($$payload2, {
       frontImgUrl: "./_img/oyster_frontpage.jpg",
-      title: "The Black Oysterman Taking Half Shells From the Bar to the Block",
+      title: "Maryland Is Bringing Back Oysters; Will Global Warming Ruin a Decade of Work?",
       description: "77 oyster restoration areas in the Chesapeake Bay are threatened by abnormal sea surface temperatures, according to my analysis."
     });
-    $$payload2.out += `<!----> <div class="image-credit svelte-1sjs5qs">Photograph by Mandy Henry, courtesy of Unsplash</div> <div class="page-container svelte-1sjs5qs"><div class="metadata svelte-1sjs5qs"><div class="credit-line svelte-1sjs5qs"><strong>By <a href="https://jinpengli.com" class="link svelte-1sjs5qs" target="_blank" rel="noopener noreferrer">Jinpeng Li</a></strong></div> <div class="publish-date svelte-1sjs5qs">Jan 2025</div></div> <div class="text-section svelte-1sjs5qs"><p>The first night I was in Baltimore for the National Institute for Computer-Assisted Reporting
+    $$payload2.out += `<!----> <div class="image-credit svelte-1ca93iu">Photograph by Mandy Henry, courtesy of Unsplash</div> <div class="page-container svelte-1ca93iu"><div class="metadata svelte-1ca93iu"><div class="credit-line svelte-1ca93iu"><strong>By <a href="https://jinpengli.com" class="link" target="_blank" rel="noopener noreferrer">Jinpeng Li</a></strong></div> <div class="publish-date svelte-1ca93iu">Jan 2025</div></div> <div class="text-section svelte-1ca93iu"><p>The first night I was in Baltimore for the National Institute for Computer-Assisted Reporting
 			(NICAR), Krystal and I wandered into a local restaurant to try the crab cake and oysters.
 			“Texas might have oysters from the Gulf of Mexico,” she said, “but East Coast oysters are
 			meaty, sweet, and unlike anything you’ve ever tasted. Try them, and I promise you’ll never
@@ -2403,7 +2413,7 @@ function _page($$payload, $$props) {
 			oysters are making a comeback.</p> <h2>Pushed Hard</h2> <p>MDNR has made two key efforts, one of which was expanding the restoration sanctuaries in 2010.</p> <p>Sanctuaries permanently close oyster beds to harvesting except in specific aquaculture lease
 			sites, allowing oysters to grow undisturbed. The goal of this preservation is to build a
 			strong breeding population of oysters that will build the reefs which provide crucial habitats
-			for other bay species.</p></div> <div class="content-container svelte-1sjs5qs"><div class="chart-container svelte-1sjs5qs">`;
+			for other bay species.</p></div> <div class="content-container svelte-1ca93iu"><div class="chart-container svelte-1ca93iu">`;
     LayerCake($$payload2, {
       x: "Year",
       y: "Metric Tons",
@@ -2461,7 +2471,7 @@ function _page($$payload, $$props) {
       },
       $$slots: { default: true }
     });
-    $$payload2.out += `<!----></div> <div class="scrolly-container svelte-1sjs5qs">`;
+    $$payload2.out += `<!----></div> <div class="scrolly-container svelte-1ca93iu">`;
     Scrolly($$payload2, {
       get value() {
         return currentStep;
@@ -2475,17 +2485,16 @@ function _page($$payload, $$props) {
         $$payload3.out += `<!--[-->`;
         for (let i = 0, $$length = each_array.length; i < $$length; i++) {
           let text = each_array[i];
-          $$payload3.out += `<div${attr("class", `step svelte-1sjs5qs ${stringify([currentStep === i ? "active" : ""].filter(Boolean).join(" "))}`)}><div class="step-content svelte-1sjs5qs"><p>${escape_html(text)}</p></div></div>`;
+          $$payload3.out += `<div${attr("class", `step svelte-1ca93iu ${stringify([currentStep === i ? "active" : ""].filter(Boolean).join(" "))}`)}><div class="step-content svelte-1ca93iu"><p>${escape_html(text)}</p></div></div>`;
         }
         $$payload3.out += `<!--]-->`;
       },
       $$slots: { default: true }
     });
-    $$payload2.out += `<!----></div></div> <div class="text-section svelte-1sjs5qs"><p>In 2014, Maryland partnered with NOAA and other nonprofit organization to launch the Oyster
-			Restoration Plan. This initiative targeted 10 Chesapeake Bay tributaries and was committed to
+    $$payload2.out += `<!----></div></div> <div class="text-section svelte-1ca93iu"><p>In 2014, Maryland partnered with NOAA and other nonprofit organization to launch the <a href="https://www.chesapeakeprogress.com/abundant-life/oysters" target="_blank" rel="noopener noreferrer">Oyster Restoration Plan</a>. This initiative targeted 10 Chesapeake Bay tributaries and was committed to
 			rebuilding oyster reefs by creating a substrate base and planting hatchery-produced juvenile
 			oysters or seeding remnant reefs.</p> <p>Data from MDNR shows that Maryland's oyster planting efforts date back to 1953. Various
-			methods are used to restore oyster beds, including planting oyster seeds and placing shells.</p></div> <div class="content-container svelte-1sjs5qs"><div class="image-container svelte-1sjs5qs"><img src="./_img/map-1.png" alt="Map step 1"${attr("class", `svelte-1sjs5qs ${stringify([currentStep === 0 ? "active" : ""].filter(Boolean).join(" "))}`)}> <img src="./_img/map-2.png" alt="Map step 2"${attr("class", `svelte-1sjs5qs ${stringify([currentStep === 1 ? "active" : ""].filter(Boolean).join(" "))}`)}> <img src="./_img/map-3.png" alt="Map step 3"${attr("class", `svelte-1sjs5qs ${stringify([currentStep === 2 ? "active" : ""].filter(Boolean).join(" "))}`)}></div> <div class="scrolly-container svelte-1sjs5qs">`;
+			methods are used to restore oyster beds, including planting oyster seeds and placing shells.</p></div> <div class="content-container svelte-1ca93iu"><div class="image-container svelte-1ca93iu"><img src="./_img/map-0.png" alt="Map step 1"${attr("class", `svelte-1ca93iu ${stringify([currentStep === 0 ? "active" : ""].filter(Boolean).join(" "))}`)}> <img src="./_img/map-1.png" alt="Map step 1"${attr("class", `svelte-1ca93iu ${stringify([currentStep === 1 ? "active" : ""].filter(Boolean).join(" "))}`)}> <img src="./_img/map-2.png" alt="Map step 2"${attr("class", `svelte-1ca93iu ${stringify([currentStep === 2 ? "active" : ""].filter(Boolean).join(" "))}`)}> <img src="./_img/map-3.png" alt="Map step 3"${attr("class", `svelte-1ca93iu ${stringify([currentStep === 3 ? "active" : ""].filter(Boolean).join(" "))}`)}></div> <div class="scrolly-container svelte-1ca93iu">`;
     Scrolly($$payload2, {
       get value() {
         return currentStep;
@@ -2496,26 +2505,28 @@ function _page($$payload, $$props) {
       },
       children: ($$payload3) => {
         const each_array_1 = ensure_array_like([
+          ["This is the Chesapeake Bay."],
           [
-            "The first method typically includes the addition of oyster seed, such as “hatchery seed” or “wild seed planting” to increase the likelihood of restoration success.",
-            "The second effort involves using substrate materials to build oyster reefs in the bay, ideally through fresh shell planting. Oyster crews and aquaculturists recycle oyster shells from business, but there aren’t enough to meet the state’s projected restoration needs. As a result, dredged shells, mixed shells, or alternative materials such as stones, concrete, porcelain, or steel slag are commonly used instead."
+            'The first method typically includes the addition of oyster seed, such as <span style="background-color: #db4c81;">hatchery seed</span> or <span style="background-color: #db4c81;">wild seed planting</span> to increase the likelihood of restoration success.',
+            'The second effort involves using substrate materials to build oyster reefs in the bay, ideally through <span style="background-color: #897bd3;">fresh shell planting</span>. Oyster crews and aquaculturists <a href="https://www.oysterrecovery.org/get-involved/shell-recycling" target="_blank" rel="noopener noreferrer">recycle oyster shells from business</a>, but there aren’t enough to meet the state’s projected restoration needs. As a result, <span style="background-color: #897bd3;">dredged shells</span>, <span style="background-color: #897bd3;">mixed shells</span>, or <span style="background-color: #897bd3;">alternative materials</span> such as stones, concrete, porcelain, or steel slag are commonly used instead.'
           ],
           [
-            "Before 2010, Maryland primarily relied on wild seed planting, dredged shell addition, and limited fresh shell planting to repair oyster beds. However, since 2010, hatchery seed has become the dominant method.",
-            "Once abundant throughout Chesapeake Bay, oysters historically covered a total area of 215350 acres. New restoration areas overlap with 72.76% of historic oyster beds. "
+            '<span style="font-size: 11px;line-height: 0.5;">If the map for the second box is not activating, try scrolling down and then back up. You should see the map with only the pink and purple planting areas. Debugging...</span>',
+            'Before 2010, Maryland primarily relied on wild seed planting, dredged shell addition, and limited fresh shell planting to repair oyster beds. However, since 2010, <span style="background-color: #f5deb3; font-weight: bold;">hatchery seed</span> has become the dominant method.',
+            'Once abundant throughout Chesapeake Bay, oysters historically covered a total area of 215350 acres. New restoration areas overlap with <span style="background-color: #f5deb3; font-weight: bold;">72.76%</span> of <span style="background-color: #DBE1DF; font-weight: bold;">historic oyster beds</span>.'
           ],
           [
-            "By 2010, 43% of the historic oyster bed area was legally protected and designated for restoration, increasing to 46% by 2022."
+            'By 2010, 43% of the historic oyster bed area was legally protected and designated for <span style="background-color: #8ED7F3; font-weight: bold;">restoration</span>, increasing to <span style="background-color: #f5deb3; font-weight: bold;">46%</span> by 2022.'
           ]
         ]);
         $$payload3.out += `<!--[-->`;
         for (let i = 0, $$length = each_array_1.length; i < $$length; i++) {
           let stepText = each_array_1[i];
           const each_array_2 = ensure_array_like(stepText);
-          $$payload3.out += `<div${attr("class", `step svelte-1sjs5qs ${stringify([currentStep === i ? "active" : ""].filter(Boolean).join(" "))}`)}><div class="step-content svelte-1sjs5qs"><!--[-->`;
+          $$payload3.out += `<div${attr("class", `step svelte-1ca93iu ${stringify([currentStep === i ? "active" : ""].filter(Boolean).join(" "))}`)}><div class="step-content svelte-1ca93iu"><!--[-->`;
           for (let $$index_1 = 0, $$length2 = each_array_2.length; $$index_1 < $$length2; $$index_1++) {
             let paragraph = each_array_2[$$index_1];
-            $$payload3.out += `<p>${escape_html(paragraph)}</p>`;
+            $$payload3.out += `<p>${html(paragraph)}</p>`;
           }
           $$payload3.out += `<!--]--></div></div>`;
         }
@@ -2523,14 +2534,13 @@ function _page($$payload, $$props) {
       },
       $$slots: { default: true }
     });
-    $$payload2.out += `<!----></div></div> <div class="text-section svelte-1sjs5qs"><p>“We’re making significant progress,” the NOAA announced in a press release on their website.
+    $$payload2.out += `<!----></div></div> <div class="text-section svelte-1ca93iu"><p>“We’re making significant progress,” the NOAA announced in <a href="https://www.fisheries.noaa.gov/chesapeake-bay/oyster-reef-restoration-chesapeake-bay-were-making-significant-progress#progress-in-maryland" target="_blank" rel="noopener noreferrer">a press release on their website</a> .
 			“Through the end of 2023, our team has planted 6.85 billion oyster seeds in Maryland as part
-			of the effort.”</p> <p>In the 2022-23 season, Maryland watermen harvested about 720,000 bushels of oysters from
-			public fishing areas — the largest-recorded harvest since the late '80s. It marks the second
-			record-high year for a wild harvest in Maryland.</p> <h2>Is Rising Sea Temperature a New Threat?</h2> <p>With native oyster populations nearly depleted, aquaculture has become a vital source for
+			of the effort.”</p> <p>In the 2022-23 season, Maryland watermen harvested about <a href="https://dnr.maryland.gov/fisheries/Documents/OysterHistoricHarvest.pdf" target="_blank" rel="noopener noreferrer">720,000</a> bushels of oysters from
+			public fishing areas — the largest-recorded harvest since the late '80s. It marks the <a href="https://www.chesapeakebaymagazine.com/md-oyster-harvest-reaches-35-year-high/" target="_blank" rel="noopener noreferrer">second</a> record-high year for a wild harvest in Maryland.</p> <h2>Is Rising Sea Temperature a New Threat?</h2> <p>With native oyster populations nearly depleted, aquaculture has become a vital source for
 			hatching more oysters to support the industry.</p> <p>Winter is a critical season for those oyster hatcheries. During this time, adult shellfish are
 			placed in warm, algae-rich water to induce spawning. Hatcheries collect the eggs, then hatch
-			and grow the oysters, which are then sold to farmers for further cultivation.</p></div></div>`;
+			and grow the oysters, which are then sold to farmers for further cultivation.</p></div> <div class="text-section svelte-1ca93iu"><p>But warmer winters are not favorable for wild oysters. The slowly increasing temperatures are creating new challenges for restoration efforts in nature.</p> <img src="./_img/warm.png" alt="Chesapeake Bay temperature map"> <p>The Chesapeake Bay in particular is experiencing a worrisome trend in rising temperatures. In 2023, the average sea surface temperature increased by 1.09°C in summer and 0.43°C in winter compared to the 2007–2022 average. While fluctuations of up to 2°C are within the normal range, these numbers only represent the average.</p> <p>When comparing restoration areas with sea surface anomalies, <span style="background-color: #f5deb3; font-weight: bold;">my analysis of NOAA satellite data found that 71 sanctuary areas experienced abnormal winter temperatures exceeding 2°C.</span> Most of these sites cluster near Southern Maryland—as if they’ve got front-row seats to the quirks of Maryland's warming waters.</p> <img src="./_img/restoration_winter.png" alt="Chesapeake Bay temperature map"> <p>Rising sea temperatures disrupt oysters' natural cycles, potentially causing premature or delayed spawning and reducing their reproductive success.</p> <p>(To Be Continued...)</p></div></div>`;
   }
   do {
     $$settled = true;

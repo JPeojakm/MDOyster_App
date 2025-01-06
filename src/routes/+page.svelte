@@ -231,10 +231,10 @@
 					[
 						'<span style="font-size: 11px;line-height: 0.5;">If the map for the second box is not activating, try scrolling down and then back up. You should see the map with only the pink and purple planting areas. Debugging...</span>',
 						'Before 2010, Maryland primarily relied on wild seed planting, dredged shell addition, and limited fresh shell planting to repair oyster beds. However, since 2010, <span style="background-color: #f5deb3; font-weight: bold;">hatchery seed</span> has become the dominant method.',
-						'Once abundant throughout Chesapeake Bay, oysters historically covered a total area of 215350 acres. New restoration areas overlap with <span style="background-color: #f5deb3; font-weight: bold;">72.76%</span> of historic oyster beds.'
+						'Once abundant throughout Chesapeake Bay, oysters historically covered a total area of 215350 acres. New restoration areas overlap with <span style="background-color: #f5deb3; font-weight: bold;">72.76%</span> of <span style="background-color: #DBE1DF; font-weight: bold;">historic oyster beds</span>.'
 					],
 					[
-						'By 2010, 43% of the <span style="background-color: #DBE1DF; font-weight: bold;">historic oyster bed </span>area was legally protected and designated for <span style="background-color: #8ED7F3; font-weight: bold;">restoration</span>, increasing to <span style="background-color: #f5deb3; font-weight: bold;">46%</span> by 2022.'
+						'By 2010, 43% of the historic oyster bed area was legally protected and designated for <span style="background-color: #8ED7F3; font-weight: bold;">restoration</span>, increasing to <span style="background-color: #f5deb3; font-weight: bold;">46%</span> by 2022.'
 					]
 				] as stepText, i}
 					<div class="step" class:active={currentStep === i}>
@@ -287,7 +287,7 @@
 
 		</p>
 		<p>
-			When comparing restoration areas with sea surface anomalies, <span style="background-color: #f5deb3; font-weight: bold;">my analysis of NOAA satellite data found that 71 sanctuarie areas experienced abnormal winter temperatures exceeding 2°C.</span> All of these sites cluster near Annapolis and Baltimore—as if they’ve got front-row seats to the quirks of Maryland's warming waters.
+			When comparing restoration areas with sea surface anomalies, <span style="background-color: #f5deb3; font-weight: bold;">my analysis of NOAA satellite data found that 71 sanctuary areas experienced abnormal winter temperatures exceeding 2°C.</span> All of these sites cluster near Annapolis and Baltimore—as if they’ve got front-row seats to the quirks of Maryland's warming waters.
 
 		</p>
 		<p>

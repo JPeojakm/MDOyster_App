@@ -68,7 +68,7 @@
 <!-- Top pic and title -->
 <FrontLayout
 	frontImgUrl="./_img/oyster_frontpage.jpg"
-	title="The Black Oysterman Taking Half Shells From the Bar to the Block"
+	title="Maryland Is Bringing Back Once-Extinct Oysters; Will Global Warming Ruin a Decade of Work?"
 	description="77 oyster restoration areas in the Chesapeake Bay are threatened by abnormal sea surface temperatures, according to my analysis."
 />
 
@@ -196,8 +196,9 @@
 
 	<div class="text-section">
 		<p>
-			In 2014, Maryland partnered with NOAA and other nonprofit organization to launch the Oyster
-			Restoration Plan. This initiative targeted 10 Chesapeake Bay tributaries and was committed to
+			In 2014, Maryland partnered with NOAA and other nonprofit organization to launch the  <a href="https://www.chesapeakeprogress.com/abundant-life/oysters" target="_blank" rel="noopener noreferrer">
+        Oyster Restoration Plan
+    </a>. This initiative targeted 10 Chesapeake Bay tributaries and was committed to
 			rebuilding oyster reefs by creating a substrate base and planting hatchery-produced juvenile
 			oysters or seeding remnant reefs.
 		</p>
@@ -233,13 +234,19 @@
 
 	<div class="text-section">
 		<p>
-			“We’re making significant progress,” the NOAA announced in a press release on their website.
+			“We’re making significant progress,” the NOAA announced in <a href="https://www.fisheries.noaa.gov/chesapeake-bay/oyster-reef-restoration-chesapeake-bay-were-making-significant-progress#progress-in-maryland" target="_blank" rel="noopener noreferrer">
+        a press release on their website
+    </a> .
 			“Through the end of 2023, our team has planted 6.85 billion oyster seeds in Maryland as part
 			of the effort.”
 		</p>
 		<p>
-			In the 2022-23 season, Maryland watermen harvested about 720,000 bushels of oysters from
-			public fishing areas — the largest-recorded harvest since the late '80s. It marks the second
+			In the 2022-23 season, Maryland watermen harvested about <a href="https://dnr.maryland.gov/fisheries/Documents/OysterHistoricHarvest.pdf" target="_blank" rel="noopener noreferrer">
+        720,000 
+    </a> bushels of oysters from
+			public fishing areas — the largest-recorded harvest since the late '80s. It marks the <a href="https://www.chesapeakebaymagazine.com/md-oyster-harvest-reaches-35-year-high/" target="_blank" rel="noopener noreferrer">
+        second
+    </a>
 			record-high year for a wild harvest in Maryland.
 		</p>
 		<h2>Is Rising Sea Temperature a New Threat?</h2>
@@ -251,6 +258,26 @@
 			Winter is a critical season for those oyster hatcheries. During this time, adult shellfish are
 			placed in warm, algae-rich water to induce spawning. Hatcheries collect the eggs, then hatch
 			and grow the oysters, which are then sold to farmers for further cultivation.
+		</p>
+	</div>
+	<div class="text-section">
+		<p>
+			But warmer winters are not favorable for wild oysters. The slowly increasing temperatures are creating new challenges for restoration efforts in nature.
+		</p>
+		<img src="./_img/warm.png" alt="Chesapeake Bay temperature map">
+		<p>
+			The Chesapeake Bay in particular is experiencing a worrisome trend in rising temperatures. In 2023, the average sea surface temperature increased by 1.09°C in summer and 0.43°C in winter compared to the 2007–2022 average. While fluctuations of up to 2°C are within the normal range, these numbers only represent the average.
+
+		</p>
+		<p>
+			When comparing restoration areas with sea surface anomalies, my analysis of NOAA satellite data found that 71 restoration sites experienced abnormal winter temperatures exceeding 2°C. All of these sites cluster near Annapolis and Baltimore—as if they’ve got front-row seats to the quirks of Maryland's warming waters.
+
+		</p>
+		<p>
+			Rising sea temperatures disrupt oysters' natural cycles, potentially causing premature or delayed spawning and reducing their reproductive success.
+		</p>
+		<p>
+			(To Be Continued...)
 		</p>
 	</div>
 </div>
@@ -297,12 +324,6 @@
 	.publish-date {
 		font-size: 12px;
 		color: gray;
-	}
-
-	.link {
-		color: black; /* 链接颜色为黑色 */
-		text-decoration: underline; /* 添加下划线 */
-		font-weight: normal; /* 默认字体权重 */
 	}
 
 	.text-section {

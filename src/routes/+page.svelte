@@ -210,20 +210,37 @@
 
 	<div class="content-container">
 		<!-- Left: Image changes based on step -->
-		<div class="image-container">
-			<img src="./_img/map-1.png" alt="Map step 1" class:active={currentStep === 0} />
-			<img src="./_img/map-2.png" alt="Map step 2" class:active={currentStep === 1} />
-			<img src="./_img/map-3.png" alt="Map step 3" class:active={currentStep === 2} />
-		</div>
+			<div class="image-container">
+				<img src="./_img/map-0.png" alt="Map step 1" class:active={currentStep === 0} />
+				<img src="./_img/map-1.png" alt="Map step 1" class:active={currentStep === 1} />
+				<img src="./_img/map-2.png" alt="Map step 2" class:active={currentStep === 2} />
+				<img src="./_img/map-3.png" alt="Map step 3" class:active={currentStep === 3} />
+			</div>
 
 		<!-- Right: Scrolly content -->
 		<div class="scrolly-container">
-			<Scrolly bind:value={currentStep}>
-				{#each [['The first method typically includes the addition of oyster seed, such as “hatchery seed” or “wild seed planting” to increase the likelihood of restoration success.', 'The second effort involves using substrate materials to build oyster reefs in the bay, ideally through fresh shell planting. Oyster crews and aquaculturists recycle oyster shells from business, but there aren’t enough to meet the state’s projected restoration needs. As a result, dredged shells, mixed shells, or alternative materials such as stones, concrete, porcelain, or steel slag are commonly used instead.'], ['Before 2010, Maryland primarily relied on wild seed planting, dredged shell addition, and limited fresh shell planting to repair oyster beds. However, since 2010, hatchery seed has become the dominant method.', 'Once abundant throughout Chesapeake Bay, oysters historically covered a total area of 215350 acres. New restoration areas overlap with 72.76% of historic oyster beds. '], ['By 2010, 43% of the historic oyster bed area was legally protected and designated for restoration, increasing to 46% by 2022.']] as stepText, i}
+				<Scrolly bind:value={currentStep}>
+				{#each [
+					[
+						'This is the Chesapeake Bay.'
+					],
+					[
+						'The first method typically includes the addition of oyster seed, such as <span style="background-color: #db4c81;">hatchery seed</span> or <span style="background-color: #db4c81;">wild seed planting</span> to increase the likelihood of restoration success.',
+						'The second effort involves using substrate materials to build oyster reefs in the bay, ideally through <span style="background-color: #897bd3;">fresh shell planting</span>. Oyster crews and aquaculturists <a href="https://www.oysterrecovery.org/get-involved/shell-recycling" target="_blank" rel="noopener noreferrer">recycle oyster shells from business</a>, but there aren’t enough to meet the state’s projected restoration needs. As a result, <span style="background-color: #897bd3;">dredged shells</span>, <span style="background-color: #897bd3;">mixed shells</span>, or <span style="background-color: #897bd3;">alternative materials</span> such as stones, concrete, porcelain, or steel slag are commonly used instead.'
+					],
+					[
+						'<span style="font-size: 11px;line-height: 0.5;">If the map for the second box is not activating, try scrolling down and then back up. You should see the map with only the pink and purple planting areas. Debugging...</span>',
+						'Before 2010, Maryland primarily relied on wild seed planting, dredged shell addition, and limited fresh shell planting to repair oyster beds. However, since 2010, <span style="background-color: #f5deb3; font-weight: bold;">hatchery seed</span> has become the dominant method.',
+						'Once abundant throughout Chesapeake Bay, oysters historically covered a total area of 215350 acres. New restoration areas overlap with <span style="background-color: #f5deb3; font-weight: bold;">72.76%</span> of historic oyster beds.'
+					],
+					[
+						'By 2010, 43% of the <span style="background-color: #DBE1DF; font-weight: bold;">historic oyster bed </span>area was legally protected and designated for <span style="background-color: #8ED7F3; font-weight: bold;">restoration</span>, increasing to <span style="background-color: #f5deb3; font-weight: bold;">46%</span> by 2022.'
+					]
+				] as stepText, i}
 					<div class="step" class:active={currentStep === i}>
 						<div class="step-content">
 							{#each stepText as paragraph}
-								<p>{paragraph}</p>
+								<p>{@html paragraph}</p>
 							{/each}
 						</div>
 					</div>
@@ -270,7 +287,7 @@
 
 		</p>
 		<p>
-			When comparing restoration areas with sea surface anomalies, my analysis of NOAA satellite data found that 71 restoration sites experienced abnormal winter temperatures exceeding 2°C. All of these sites cluster near Annapolis and Baltimore—as if they’ve got front-row seats to the quirks of Maryland's warming waters.
+			When comparing restoration areas with sea surface anomalies, <span style="background-color: #f5deb3; font-weight: bold;">my analysis of NOAA satellite data found that 71 sanctuarie areas experienced abnormal winter temperatures exceeding 2°C.</span> All of these sites cluster near Annapolis and Baltimore—as if they’ve got front-row seats to the quirks of Maryland's warming waters.
 
 		</p>
 		<p>
@@ -353,7 +370,7 @@
 	}
 
 	.step {
-		height: 80vh;
+		height: 100vh;
 		display: flex;
 		align-items: center;
 		justify-content: center;

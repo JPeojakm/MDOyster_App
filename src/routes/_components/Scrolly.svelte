@@ -33,18 +33,22 @@
 	};
 
 	const mostInView = () => {
-		let maxRatio = 0;
-		let maxIndex = 0;
-		for (let i = 0; i < steps.length; i++) {
-			if (steps[i] > maxRatio) {
-				maxRatio = steps[i];
-				maxIndex = i;
-			}
+	let maxRatio = 0;
+	let maxIndex = 0;
+	for (let i = 0; i < steps.length; i++) {
+		if (steps[i] > maxRatio) {
+			maxRatio = steps[i];
+			maxIndex = i;
 		}
+	}
 
-		if (maxRatio > 0) value = maxIndex;
-		else value = undefined;
-	};
+	if (maxRatio > 0) {
+		console.log(`Activating step ${maxIndex}`);
+		value = maxIndex;
+	} else {
+		value = undefined;
+	}
+};
 
 	const createObserver = (node, index) => {
 		const handleIntersect = e => {
@@ -54,11 +58,14 @@
 			mostInView();
 		};
 
-		const marginTop = top ? top * -1 : 0;
-		const marginBottom = bottom ? bottom * -1 : 0;
+		const marginTop = top ? top * -1 : -100;
+		const marginBottom = bottom ? bottom * -1 : -100;
 		const rootMargin = `${marginTop}px 0px ${marginBottom}px 0px`;
-		const options = { root, rootMargin, threshold };
-
+		const options = {
+	root: null,
+	rootMargin: '0px 0px -50px 0px',
+	threshold: [0.1, 0.5, 1.0]  // 元素至少有 50% 可见才触发
+};
 		if (intersectionObservers[index]) intersectionObservers[index].disconnect();
 
 		const io = new IntersectionObserver(handleIntersect, options);

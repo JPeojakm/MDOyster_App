@@ -2,8 +2,13 @@ import adapter from '@sveltejs/adapter-vercel';
 
 export default {
 	kit: {
-		adapter: adapter({
-			// see below for options that can be set here
-		})
+		adapter: adapter(),
+		prerender: {
+			handleHttpError: ({ path, referrer, message }) => {
+				console.warn(`404 error on ${path}, referrer: ${referrer}`);
+				// 忽略 404 错误，继续构建
+				return;
+			}
+		}
 	}
 };

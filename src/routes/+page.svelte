@@ -67,7 +67,7 @@
 
 <!-- Top pic and title -->
 <FrontLayout
-	frontImgUrl="./src/routes/_img/oyster_frontpage.jpg"
+	frontImgUrl="./_img/oyster_frontpage.jpg"
 	title="The Black Oysterman Taking Half Shells From the Bar to the Block"
 	description="77 oyster restoration areas in the Chesapeake Bay are threatened by abnormal sea surface temperatures, according to my analysis."
 />
@@ -210,9 +210,9 @@
 	<div class="content-container">
 		<!-- Left: Image changes based on step -->
 		<div class="image-container">
-			<img src="./src/routes/_img/map-1.png" alt="Map step 1" class:active={currentStep === 0} />
-			<img src="./src/routes/_img/map-2.png" alt="Map step 2" class:active={currentStep === 1} />
-			<img src="./src/routes/_img/map-3.png" alt="Map step 3" class:active={currentStep === 2} />
+			<img src="./_img/map-1.png" alt="Map step 1" class:active={currentStep === 0} />
+			<img src="./_img/map-2.png" alt="Map step 2" class:active={currentStep === 1} />
+			<img src="./_img/map-3.png" alt="Map step 3" class:active={currentStep === 2} />
 		</div>
 
 		<!-- Right: Scrolly content -->
